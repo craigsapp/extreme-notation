@@ -1,0 +1,2653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Simple Sidebar - Start Bootstrap Template</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/styles-global.css">
+</head>
+
+
+<body>
+
+  <div class="d-flex toggled" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Notation Extremes</div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav id="top-nav" class="navbar navbar-expand-lg navbar-light ">
+        <button class="btn btn-primary" id="menu-toggle">Index</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div style="margin-bottom:100px;" class="container-fluid">
+	<div id="main-title-container">
+        	<div id="main-title">Extremes of Conventional Music&nbsp;Notation</div>
+	</div>
+	<br/>
+        
+<!--
+   vim: ts=3
+-->
+
+<p><a name="intro"> </a></p>
+
+<details>
+
+<summary>Introduction</summary>
+
+<ol>
+   <li>
+      Notwithstanding the heading below referring to "The Game",
+      this list has a serious purpose, namely to suggest that
+      conventional Western music notation is far more complex and
+      subtle than most people think. In particular, it does not
+      have well-defined borders; it just fades away indefinitely
+      in all directions. It's widely understood that what music
+      notation means &mdash; its semantics &mdash; is ill-defined.
+      But even  what constitutes valid notation &mdash; its syntax
+      &mdash; is ill-defined, and even for individual symbols
+      regardless of context. For example, there's no limit on the
+      shortest note duration, on the number of <i>p</i>'s or
+      <i>f</i>'s in a dynamic mark, or even on the number of
+      accidentals on a note.  This list includes published music
+      with 2048th notes, with markings of <i>pppppppp</i> (eight
+      <i>p</i>'s) and <i>ffffffff</i> (eight <i>f</i>'s), and with
+      triple sharps and triple flats. I'm confident that the existence
+      of every one of these would surprise most musicians, including
+      music theorists and musicologists; but no one can say that
+      even shorter notes, larger numbers of <i>p</i>'s or <i>f</i>'s,
+      or quadruple sharps or flats aren't possible or valid.
+   </li>
+
+   <li> Rules of The Game
+      <ol type="a">
+    <li>
+       Only published works are considered, except for music old
+       enough that publication may not be a meaningful concept.
+       Also, in general, implicit notation is excluded, e.g.,
+       Renaissance notation that is equivalent to complex tuplets.
+       Where there's a tie among several works, I've tried to
+       emphasize those that are the most "mainstream", especially
+       in terms of composer and publisher.  But works listed are
+       automatically biased heavily towards mainstream works, and
+       especially those by very well-known composers, since I'm
+       less likely to even know about details in other works. (I
+       doubt if Bach, Beethoven, etc., were really such great
+       pioneers of notation as this document seems to indicate!)
+       Runners-up are often listed: this is useful to give an idea
+       of how unusual, and therefore how significant, the extreme
+       is &mdash; both in practical terms and as a feature of what
+       computer scientists would call <i>music representation</i>).
+    </li>
+
+    <li>
+       Another question is what to do about what is sometimes called
+       &#147;antimusic&#148;, &#147;conceptual music&#148;, and so
+       on. This includes pieces that are obviously unplayable or
+       inaudible, e.g., with notes on so many ledger lines they're
+       above the hearing range even of dogs, and pieces containing
+       zero notes or to be repeated forever. I generally show such
+       items in square brackets "[ ]", but don't take them seriously
+       as extremes.  Naturally, the borderlines are not well-defined.
+       There are also pieces that are perfectly playable and audible
+       but whose interest is primarily conceptual, e.g., works that
+       consist of a single note, and works of significant musical
+       interest but in which the extreme feature is conceptual,
+       e.g., where the piece is to be repeated in its entirety
+       hundreds of times or forever. These are handled on a
+       case-by-case basis. (Examples of each of the features mentioned
+       in this paragraph appear herein.)
+    </li>
+
+    <li>
+       Jokes and parodies of music notation like the well-known
+       "Fairies Aire and Death Waltz", with its 32,768th note (or
+       is it a 65,536th?) and so on, form a related category.  These
+       may be interesting, but not for my purposes.
+    </li>
+
+    <li>
+       An important borderline case of music whose interest might
+       be primarily conceptual is the "new complexity" music. To
+       cite just one example, Brian Ferneyhough: String Quartet no.
+       3 (1987; Peters ed.), II, includes a number of tuplets nested
+       4 levels deep, and several meters with non-power-of-2
+       denominators, e.g., 2/10 and 1/12. My personal inclination
+       is strongly towards considering such work as of more conceptual
+       than musical interest, but this is probably unfair: even if
+       I'm right, it might still have substantial musical interest!
+       And I've rarely (if ever) listened to this music, so I really
+       can't say. But see below for more on Ferneyhough's use of
+       nested tuplets. </li> <li> Though this list concentrates on
+       notation, some "sound" aspects are included, e.g., extreme
+       sounding as well as written pitches.
+    </li>
+      </ol>
+   </li>
+
+   <li>
+      A related collection of examples of unusual music notation
+      appears in Byrd (1984) and a supplement, <a href="http://www.informatics.indiana.edu/donbyrd/MoreCMNCounterexamples.htm">More
+      Counterexamples in Conventional Music Notation</a> (Byrd,
+      2017b).  That collection concentrates not on extremes but on
+      notation that breaks the supposed rules, e.g., two clefs
+      simultaneously active on the same staff, time-signature changes
+      in the middle of a measure.  Byrd (1994) discusses at some
+      length a few items from the original collection. However, the
+      dividing line between extremes and rule-breaking is often
+      unclear. In any case, the <a href="http://www.informatics.indiana.edu/donbyrd/InterestingMusicNotation.html">Gallery
+      of Interesting Music Notation</a> webpage (Byrd, 2017a) shows
+      and comments on particularly interesting examples of both.
+   </li>
+
+   <li>
+      In terms of number of contributions and ideas of various
+      kinds, Noam Elkies and Gavin Jared Bala are in a class by
+      themselves. Thanks also for contributions and ideas to: Hans
+      Aberg, David Alpher, Daniel Arribas, Jacob Baltuch, Kim Bastin,
+      Arnold Black, James Brady, Peter Burkholder, Jack Campin,
+      Silas Cordiero, Alistair Craft, Tim Crawford, Myke Cuthbert,
+      Samuel Dickenson,  Matthew Dovey, Halvor K. Hosar, Eric
+      Isaacson, Michael Fingerhut, Nicholas Forty, J. Gedan, Michael
+      Good, Jay Gottlieb, Jeremy Grimshaw, Bill Guerin, Jim Halliday,
+      Flinder Hiew, Douglas Hofstadter, Julian Hook, Sean Hunt,
+      James Ingram, Clovis Lark, Steve Larson, David Lasocki, Joyce
+      Lindorff, Geoffrey Liu, Tom McCanna, John McKay, David Meckler,
+      Justin Miller, Jose Montalvo, Scott Murphy, Nigel Nettheim,
+      Nick Nicholas, Laurel Parsons, James Primosch, Laurent Pugin,
+      Craig Sapp, Stan Shumway, Jeffrey Solow, Mark Starr, Russell
+      Tinkham, Joachim Veit, Frans Wiering, Richard White, Daniel
+      Wolf, and Michael Zarky. I am not a professional musicologist,
+      and the list could certainly be improved in many ways;
+      contributions are invited. Asterisk ("*") indicates items I
+      haven't seen personally.
+   </li>
+
+   <li>
+      This material is based in part on work supported by the
+      National Science Foundation under Grant No. 9909068. Any
+      opinions, findings, and conclusions or recommendations expressed
+      in this material are those of the author(s) and do not
+      necessarily reflect the views of the National Science Foundation.
+   </li>
+
+   <li>
+       Abbreviations used herein: "CMN" = Conventional Music Notation
+       (also called Traditional Music Notation, Conventional Western
+       Music Notation, etc.); "B&#8239;&amp;&#8239;I" = Byrd &amp;
+       Isaacson (2016); "B&#8239;&amp;&#8239;M, 1948" = Barlow &amp;
+       Morgenstern (1948).
+   </li>
+
+   <li>
+      A small amount of this material appeared in Hewlett &amp;
+      Selfridge-Field (1991, 1992). Donald Byrd, Research Technologies
+      and School of Informatics, Indiana University; e-mail,
+      donbyrd(at)indiana.edu .
+    </li>
+</ol>
+
+
+
+</details>
+
+<!--
+   vim: ts=3
+-->
+
+<details>
+
+
+<summary>Pitch</summary>
+
+<p>
+   Octave notation here is in the international standard ISO system,
+   formerly known as the ASA (Acoustical Society of America) or
+   ANSI system. In this system, middle C (MIDI note number 60) is
+   C4; octaves start with C, so the B just below (MIDI number 59)
+   is B3. The lowest note of the normal 88-key modern piano is A0
+   (MIDI 21); the highest note is C8 (MIDI 108). (Boesendorfer
+   Imperials, which have existed since ca. 1900, go down to F0 or
+   even C0. And Stuart &amp; Sons of New South Wales, Australia now
+   make a 102-key piano with a range of C0 to F8 (contributed by
+   Baltuch); I believe they introduced it just a few years ago.)
+</p>
+
+
+
+<h3>1. Most ledger lines {B&amp;I 4.7}</h3>
+
+
+
+<ol type="a">
+   <li>
+      Above staff: 9 in Martino: Pianississimo (1970), for C8.
+      <br />Runners-up: 8 in Pianississimo for several A7's and B7's;
+      8 in Shostakovich: Piano Trio no. 2 in E minor, Op. 67, end
+      of first movement, violin part (International ed.; contributed
+      by Elkies); 7 in Sibelius: Violin Concerto (1905; Kalmus ed.),
+      III, for F#7 in solo part (occurs many times); Schoenberg:
+      Violin Concerto (1936); Davidovsky: Synchronism no. 1; etc.
+      [Tom Johnson: Celestial Music for Imaginary Trumpets (1974)
+      contains a chord whose top note is about 100(!) ledger lines
+      above the staff, in treble clef.]
+   </li>
+
+   <li>
+      Below staff: 6 is fairly common in piano music for B0 or A0,
+      e.g., Brahms: Rhapsodies, Op. 79, both nos. 1 and 2 (Peters/Sauer
+      ed.); Debussy: Pour le Piano (1901; Schirmer ed.), I.
+   </li>
+</ol>
+
+
+
+<h3>2. Extreme pitches {B&amp;I 4.7}</h3>
+
+
+
+<ol type="a">
+   <li>
+      Highest written and sounding: G#8 (MIDI note number 116) in
+      Salvatore Sciarrino: Six Caprices for Violin, no. 1 (1976)
+      (in harmonics).  Runners-up: D8 in Scriabin: Piano Sonata no.
+      6, Op. 62 (1911, Dover &amp; Schirmer eds.), last page
+      (contributed by Dovey) (an editorial footnote in the Schirmer
+      edition comments that this note "did not yet exist" on pianos;
+      in fact, as far as I know, it didn't exist until the creation
+      of the Stuart &amp; Sons 102-key piano of the 21st century);
+      also in Percy Grainger: *Let's Dance Gay in Green Meadow
+      (Faber ed.) (contributed by Andrew Plant via Alistair Craft).
+      Lesser runners-up include C#8 in Paganini: Violin Concerto
+      no. 1, Op. 6 (1817), III, solo part, and Schoenberg: Violin
+      Concerto, Op. 36 (1936), solo part (in harmonics in both
+      pieces). [The note in Tom Johnson: Celestial Music for Imaginary
+      Trumpets mentioned above, about 100 ledger lines above a staff
+      in treble clef, would have a frequency of many gigahertz
+      &mdash; way, way above the audible range; even dogs can hear
+      only up to about 60 kilohertz!]
+   </li>
+
+   <li>
+      Lowest written and sounding: C0 (MIDI note 12) in Alexandre
+      Guilmant: Organ Sonata no. 5 in c, Op. 80 (before 1909; Dover
+      ed.), V, end (written C2 with a 32-ft. stop); in William
+      Kraft: Encounters II for solo tuba (MCA Music, 1970) (contributed
+      by Tinkham); and in William Bolcom: *Piano Concerto (1976)
+      (contributed by White). This note has a frequency of 16.4 Hz,
+      while it's generally considered that the lowest frequency
+      that's heard as a pitch is about 20 Hz. Runners-up: E-flat-0
+      (MIDI 15) in La Monte Young: *Well-Tuned Piano (written for
+      a specially-tuned Boesendorfer Imperial; apparently unpublished,
+      like all his works, so not really in the scope of this list),
+      frequency 18.6 Hz in Young's tuning system (contributed by
+      Grimshaw); F0 (MIDI 17) in Bartok: Piano Sonata (1926; Boosey
+      &amp; Hawkes ed.), II, frequency 21.8 Hz &mdash; this is also
+      outside the range of all but a few pianos.
+   </li>
+</ol>
+
+
+
+<h3>
+   3. Extreme accidentals {B&amp;I 4.8} and key signature {B&amp;I
+   9.1}
+</h3>
+
+
+
+<ol type="a">
+   <li>
+      <p>Regarding accidentals, triple sharps appear in *Fugue no.
+      34 of Anton Reicha: 36 Fugues for Piano (ca. 1805) (Magasin
+      de l'imprimerie chymique ed.), m. 56, left hand (a C#x lower
+      neighbor between two Dx's) (contributed by Nicholas); in
+      Alkan: Etude no. 10 from Douze etudes dans tous les tons
+      mineur, Op. 39 (1857) (contributed by Starr); and near the
+      end of the last movement of Reger: Clarinet Sonata, Op. 49
+      no. 2, piano part (1904; Universal ed.) (F#x, used as a lower
+      neighbor between two Gx's) (contributed by McCanna).</p>
+
+      <p>The Alkan and Reger instances are each in a passage in 6
+      sharps; the Reicha has no key signature, making multiple
+      sharps that much more remote in terms of tonality.</p>
+
+      <p>Triple flats (for Bbbb) occur in Nikolai Roslavets (or
+      Roslawez): Piano Sonata No. 1 (1914; Schott ed.), mm. 152 and
+      153 &mdash; along with double flats in the same passage, their
+      individual flats have their "stems" linked with "beams"!
+      (contributed by Hook); they also occur in Galina Ustvolskaya:
+      Piano Sonata No. 3, p. 30 (contributed by Cordiero).</p>
+   </li>
+
+   <li>
+      <p>A key signature of 6 sharps and a double-sharp &mdash; the
+      equivalent of 8 sharps &mdash; appears in the final pages the
+      vocal score of John Foulds: *A World Requiem; the passage is
+      in G-sharp major (contributed by Bala).</p>
+
+      <p>A key signature of 8 flats appears in Victor Ewald's
+      (brass) Quintet No. 4, III: the movement is in F-flat major.
+      (contributed by Miller)</p>
+
+      <p>Runners-up: Key signatures of 7 sharps and of 7 flats are
+      not too unusual. 7 sharps is used in J.S. Bach: The Well-Tempered
+      Clavier, Books I and II, for a prelude and fugue in C-sharp
+      major in each (in B &amp; M, 1948). 7 sharps is also used for
+      C-sharp major at the end of the second movement of Schubert's
+      last piano sonata (D.960, in B-flat) (contributed by Elkies).
+      7 flats is used for A-flat minor in Beethoven: Piano Sonata
+      no. 12, Op. 26, I and III (contributed by Tinkham); also in
+      Brahms: Horn Trio, Op.40, II (in B &amp; M, 1948; contributed
+      by Elkies).</p>
+
+      <p>Note: Key signatures of up to one triple-flat + six
+      double-flats = 15 normal flats (!) appear in Dumitrescu (2007),
+      pp. 141-170.  However, it's not clear that this qualifies as
+      CMN. (contributed by Hook, who comments: "This is a modern
+      realization of a 16th-century motet. The original manuscript
+      was written in a circle. The author doing the reconstruction
+      argues that the proper way to perform it requires adding flats
+      at each repetition, and this is where that brings us by the
+      third page.")</p>
+   </li>
+</ol>
+
+
+
+<h3>4. Extreme ottava {B&amp;I 13.1}</h3>
+
+
+
+<ol type="a">
+   <li>
+      15ma: Contrary to popular belief, 15ma (2 octaves transposition)
+      is quite rare, though probably less so in the last 50 years
+      or so than before. Still, the only instances I know of of
+      15ma alta in a well-known work are in the solo part of Ravel:
+      Piano Concerto (Durand ed., 1932(), III (NB that this is
+      incorrectly printed as "16a"). It's also used repeatedly in
+      Messiaen's Oiseaux Exotiques (1956; Universal ed., 1959; again
+      shown as "16"), plus piano music by Cowell (Advertisement,
+      1914; Associated ed.), Feldman (Durations III, no. 3, 1962),
+      etc.
+   </li>
+
+   <li>
+      15ma bassa: The only instances I know of are for tone clusters
+      in Cowell: The Tides of Manaunaun (probably written in 1917,
+      though Cowell claimed 1912; Associated ed.) for piano; for
+      the C0 in William Kraft: Encounters II for solo tuba (contributed
+      by Tinkham); and for C0 for tuba in William Bolcom: *Piano
+      Concerto (1976) (contributed by White).
+   </li>
+</ol>
+
+
+
+<h3>
+   5. Widest skip and range in a melody.
+	<h4>
+		(NB: of course the term
+   	"melody" isn't at all well-defined; as a result, many of these
+   	extremes are open to question.)
+	</h4>
+</h3>
+
+
+
+<ol type="a">
+   <li>
+      Widest skip: 5 octaves + perfect 5th (67 semitones) in
+      Beethoven: Piano Sonata no. 32, Op. 111 (1822), I, m. 116.
+      (It's 5 octaves + minor 7th (70 semitones) in some editions;
+      the old Bulow/Lebert ed. acknowledges the editors changed the
+      higher note, justified by inference from the range of the
+      Broadwood piano Beethoven had when he wrote the piece and by
+      analogy with the passage with the runner-up wide skip in the
+      same piece!)
+   </li>
+
+   <li>
+      Runners-up for widest skip: 4 octaves + dim. 7th (57 semitones)
+      in Beethoven: Piano Sonata no. 32, Op. 111, I, m. 49; 4 octaves
+      (48 semitones) in D. Scarlatti: Sonata in c, L. 360, K. 22;
+      3 octaves + P 4th (41 st) in violin 1 of Beethoven: Quartet
+      Op. 59 #3, I, ca. mm. 57-58, and in the solo part of Mozart:
+      Piano Concerto no. 21, II (both contributed by Elkies).
+   </li>
+
+   <li>
+      Widest overall range: 5 octaves + perfect 4th (65 st) in
+      Saint-Saens: Cello Concerto no. 1, Op. 33, in a long, slow
+      scale (pp. 53-54, Durand/Dover ed.). (This is arguably not
+      part of a melody, but it's by far the most salient part of
+      the texture for eight measures.) Runners-up: 4 octaves + maj
+      6th (57 st) in Beethoven: "Hammerklavier" Sonata, Op. 106, I
+      &mdash; except that 2 octaves of this is really a change of
+      texture (via doubling). A better choice might be 4 octaves
+      and at least a maj 3rd (52 st), perhaps a maj 6th (57 st),
+      in Chopin: Etude in C major, Op. 10 no. 1: here the uncertainty
+      is because it's not at all clear where the melody ends;
+      however, none of it has a very melodic character in the normal
+      sense.
+   </li>
+
+   <li>
+      Runner-up for widest range: 3 octaves + min 2nd (37 st) in
+      Mozart: Violin Concerto no. 5 ("Turkish"), I.
+   </li>
+</ol>
+
+
+
+<h3>
+   6. Most repeated notes in a melody.
+
+   <h4>
+      See above comments about the term "melody".  Counts are of
+      sounding notes, i.e., only notes with attacks, not tied notes.
+      Only written out notes qualify, not tremolo.
+   </h4>
+</h3>
+
+
+
+<ol type="a">
+   <li>
+      Without rhythmic variety (all notes the same sounding duration).
+      32 in Prokofieff: Toccata, Op. 11 (1912), m. 1 (first different
+      pitch = maj 2nd up). It might be argued that this isn't a
+      melody, but it's the beginning of the piece, unaccompanied,
+      recurs in important places, etc. Runners-up: 15 in Khachaturian:
+      Sabre Dance from "Gayane" (first different pitch = maj 2nd
+      down); 14 in Beethoven: "Waldstein" Sonata, Op. 53, I, m.5
+      (first different pitch = maj 2nd up).
+   </li>
+
+   <li>
+      With at least some rhythmic variety (one or more notes with
+      different sounding duration). The 80 notes that comprise the
+      entire voice part of Peter Cornelius's song "Ein Ton", Op. 3
+      #3 (contributed by Elkies). Runners-up: 50 in Chopin's song
+      "Leci liscie z drzewa" ("Leaves are falling"), Op. 74 no. 17,
+      mm. 50-67. 48 of the 50 are in one phrase (first different
+      pitch = min 2nd up). (contributed by Nettheim). 35 in Cole
+      Porter's "Night and Day" (contributed by Elkies). 30 in Jobim:
+      One Note Samba (first different pitch = 4th up); here the
+      number of repeated written notes is much larger, since many
+      of the notes are tied. 20 in Bartok: Piano Sonata (1926), II,
+      m.1 (first different pitch = maj 2nd down).
+   </li>
+</ol>
+
+
+
+</details>
+
+<!--
+   vim: ts=3
+-->
+
+<details>
+
+
+<summary>Rhythm and Duration</summary>
+
+
+<h3>1. Shortest notated duration</h3>
+
+<ol type="a">
+   <li>For normal notes {B&amp;I 4.5}
+   	<ol type="i">
+      	<li>
+    			m. 16 of Anthony Phillip Heinrich: Toccata Grande Cromatica
+    			from The Sylviad, Set 2 (ca. 1825), uses 1024th and even two
+    			2048th(!) notes (in <a href="http://www.informatics.indiana.edu/donbyrd/InterestingMusicNotation.html">Byrd,
+    			2017a)</a>. However, the context shows clearly that these notes
+    			have one beam more than they should, so they should really be
+    			512th and 1024th notes, respectively. The passage -- in 2/4,
+    			marked "Grave" -- also contains many 256th notes.  It's easy
+    			to argue that these durations are ridiculous: even at a tempo
+    			as slow as M.M. eighth = 40 (quarter = 20), a 1024th note would
+    			last only about 12 millisec.; cf. "Shortest performed duration"
+    			below. However, Heinrich obviously wanted a huge ritardando
+    			here, so they may not be so unreasonable after all. See J.B.
+    			Clark, The Dawning of American Keyboard Music (Greenwood Press,
+    			1988), p. 365. (contributed by Shumway) (The first page of Ives:
+    			"Concord" Piano Sonata no. 2 (completed 1915) (Kalmus ed.), IV
+    			("Thoreau") contains a beamed group of 64th notes ending with
+    			two 1024th notes, but it's pretty clear that the additional
+    			beams on the "1024ths" are a mistake; they should just be 64ths.)
+			</li>
+
+			<li>
+	    		Runners-up: 256th notes appear in Vivaldi: Concerto in
+	    		C for ottavino, archi e cembalo, F. IV n. 5; Boguslav
+	    		Schaeffer: *4 Movements for Piano and Orch. (mentioned
+	    		in Read (1969), p. 117); the last variation in some
+	    		editions (e.g. the Neue Mozart-Ausgabe) of Mozart's 12
+	    		Variations on "Je suis Lindor", K. 354 (contributed by
+	    		Bala); and some editions (e.g., Barenreiter) of Beethoven:
+	    		Piano Concerto no. 3, II. (In the CCARH 1987 Directory,
+	    		Dydo says 256th notes occur in Telemann but gives no
+	    		details. Perhaps he was thinking of the Vivaldi piece,
+	    		though it's been suggested there are 256ths in the
+	    		Gulliver Suite, but I haven't checked.)
+	 		</li>
+
+	 		<li>
+	    		Interesting runners-up are 15:8 128ths in Beethoven:
+	    		Piano Concerto no. 3, II, and Bartok:  Rhapsody, Op. 1
+	    		(1904; Boosey &amp; Hawkes ed.). These are very nearly as
+	    		short as 256th notes.
+	 		</li>
+		</ol>
+	</li>
+
+	<li>For grace notes (including appoggiaturas) {B&amp;I 5.5}
+		<ol type="i">
+			<li>
+	    		128th grace notes in Alkan: Trois Grandes Etudes, Op.
+	    		76 (Billaudot ed.), no. 2, 3 mm. before the end
+	    		(contributed by Dickenson).
+			</li>
+
+			<li>
+	    		Runners-up: 64th grace notes are not too rare. Examples
+	    		include Bartok: Rhapsody, Op. 1 and both of the Two
+	    		Elegies, Op. 8B (Boosey &amp; Hawkes eds.); Ravel: Gaspard
+	    		de la Nuit (1908; Durand/Dover ed.), Ondine; Alkan:
+	    		Trois Grandes Etudes, Op. 76 (Billaudot ed.), no. 2, 3
+	    		mm. before the end (contributed by Dickenson).
+	 		</li>
+		</ol>
+	</li>
+</ol>
+
+<br /><h3>2. Longest notated duration, including ties</h3>
+
+
+
+<ol type="a">
+	<li>
+      In both measures and durational units (i.e., fixed units like
+      quarters or wholes): Verdi: Otello (1887), Act I, opens with
+      a pedal point in the organ of the tone cluster(!) C2,C#2,D2,
+      lasting 244 measures of 4/4 (= 976 quarters). (contributed
+      by Starr)
+   </li>
+
+	<li>
+      Runners-up (all distant) in durational units: Bartok: The
+      Wooden Prince (1914-17) opens with 120 measures of tied dotted
+      halfs (= 360 quarters) of timpani roll on one pitch, but it's
+      not clear this counts, since (despite the tie) ia timpani
+      roll really reiterates the note many times. There are tied
+      notes equivalent to 140 quarters in Beethoven: Symphony No.
+      9, II, basses, though peculiarities of the notation vaguely
+      suggest subdivisions into sections the longest of which is
+      88 quarters.
+
+		Unimpeachable runners-up are
+
+      Brahms: A German Requiem, end of the 3rd movement (30 bars
+      of 4/2 = 240 quarters);
+
+      Ravel: *L'Enfant et les Sortileges, "pastorelles" section of
+      Act I, bottom half of the alto section (84+ bars of 2/4 =
+      168.5 quarters) (contributed by Elkies); and Beethoven:
+      Symphony no. 5, III, violas (43 measures of tied dotted halfs
+      = 129 quarters).
+	</li>
+
+	<li>
+       Runner-up  (distant) in measures: Bach: Organ Toccata in F
+       major begins with a pedal point of 54(?) measures (of 3/8;
+       = 81 quarters).
+   </li>
+
+	<li>
+      Notre Dame organum in CMN transcriptions has some fairly
+      strong contenders, though nothing comparable to Otello. Cf.
+      especially Perotin: Viderunt Omnes, "the F-major toccata of
+      the 13th century", and Sederunt; each begins with what looks
+      in a modern edition like 50 or 60 measures (= 150 or 180
+      quarters) of 6/8 of one tenor note.
+   </li>
+
+	<li>
+      Longest continuous trill (considering only "real" trills in
+      terms of both notation and sound; not timpani rolls, written-out
+      fingered tremolos, etc.) on a single pitch:
+
+      in measures and durational units, 15 measures of 3/4 in
+      Beethoven: Diabelli Variations, Op. 120 (Breitkopf &amp; Hartel
+      ed.), Variation XX, mm. 17-31; in measures (and runner-up in
+      durational units), 10 measures of 3/4 in Chopin: Mazurka no.
+      53; in durational units (and runner-up in measures), 9 bars
+      of 2/2 in Mozart: *Piano Quartet in G minor, K 478, third
+      movement, piano part, bars 311 to 319 (contributed by Bala).
+      Runner-up in durational units and measures: 8 bars of 2/2 in
+      Beethoven's cadenza to the Rondo of Mozart's D-minor piano
+      concerto, K. 466 (contributed by Elkies).
+   </li>
+
+	<li>
+      Longest multi-measure rest, in measures {B&amp;I 6.5}: the organ
+      part of Strauss: An Alpine Symphony (1915) opens with a
+      multibar rest labelled "tacet bis:", followed by rehearsal
+      mark 94, then seven measures of rests with cues. The initial
+      rest fills 695 measures. However, for a number that actually
+      appears in the music, the largest I know of is 463 in a
+      transcription of John Coltrane's version of the Rodgers &amp;
+      Hammerstein song My Favorite Things, in Coltrane Plays
+      Standards, p. 35 (Hal Leonard ed.). Runner-up: 128 measures
+      in Bruckner: Symphony no. 8 (1884-87), IV(?), triangle/cymbal
+      part; this is part of a series of multibar rests and rests
+      with cues totalling 248 measures.
+   </li>
+
+   <li>
+		For grace notes (including appoggiaturas) {B&amp;I 5.5}: Grace
+   	half notes in Mozart: Quoniam of the Great Mass in C minor,
+   	K.427, bar 85, first violins and first soprano; John Wall Callcott:
+   	"Zephyr, with thy downy wing" (both contributed by Bala).
+
+      C.P.E. Bach's Versuch uber die wahre Art das Clavier zu spielen
+      (1762?; English translation as: Essay on the True Art of
+      Playing Keyboard Instruments) gives examples of half- and
+      even whole-note appoggiaturas. Runners-up: There are many
+      examples of grace quarter notes.
+   </li>
+
+</ol>
+
+
+
+<br /><h3>3. Most augmentation dots {B&amp;I 4.6, 6.7}</h3>
+
+
+
+<ol type="a">
+	<li>
+      Quadruple dots appear in Liszt: Piano Concerto #2 (1839, rev.
+      1848; Kalmus ed.), Allegro deciso, mm. 327 and 331; Schumann:
+      String Quartet no. 1, Op. 41 no. 1 (1842), III, mm. 16, 17,
+      33, 34, etc. (contributed by Cuthbert) (in <a href="http://www.informatics.indiana.edu/donbyrd/InterestingMusicNotation.html">Byrd,
+      2017a)</a>; Verdi: Requiem (1874; Dover ed.), Rex Tremendae,
+      mm. 356 and 358; Franck: Prelude, Chorale, and Fugue (1884;
+      Schirmer ed.), mm. 2 and 4 (in B &amp; M, 1948); Hindemith: Mathis
+      der Maler Symphony (1934; Schott ed.), III, introduction;
+      Bartok: Music for Strings, Percussion, and Celesta (1936;
+      Boosey &amp; Hawkes ed.), III, m. 80; and Einojuhani Rautavaara:
+      Icons, Op. 6 (1955), I ("Jumalanäidin kuolema"), mm. 2-3
+      (contributed by Arribas). In every case, the dots are on a
+      half note.
+   </li>
+
+	<li>
+       Runners-up: triple dots occur in Schumann: Carnaval (1835),
+       last movement; Chopin: Piano Sonata no. 2 in b-flat, Op. 35
+       (1840), I; Liszt: Mazeppa (1827; rev. 1837, 1854?), mm. 1-4
+       (in B &amp; M, 1948); Sibelius: Violin Concerto, II; etc. These
+       are all (or almost all) on notes, but a triple-dotted eighth
+       rest appears in m. 15 of Heinrich's Toccata Grande Cromatica;
+       triple-dotted quarter rests in mm. 2 and 3 of Rautavaara's
+       Icons, I; and a triple-dotted half rest in Stockhausen:
+       Zeitmasse (Universal ed., 1957).
+   </li>
+
+	<li>
+		For the earliest double dots, see below.
+	</li>
+
+</ol>
+
+
+
+<h3>
+		4. Tuplet extremes. 
+
+		<h4>
+			See Read (1978) for extensive discussion, with many examples.
+		</h4>
+</h3>
+
+
+<ol type="a">
+	<li> Most complex in a single level {B&amp;I 11.1}
+		<ol type="i">
+	 		<li>
+				Largest numerator: 58 (unmarked) in Chopin: Etude in
+	 			C-sharp minor, Op. 25 #7 (1836; Paderewski ed.). Runner-up:
+	 			48 (marked) in Chopin: Nocturne in D-flat, Op. 27 #2 (1835;
+	 			Henle ed.).
+			</li>
+
+			<li>
+	    		Largest denominator: 32 in Sorabji: Opus Clavicembalisticum,
+	    		final section (the tuplet is 40:32). Runners-up: 16 in
+	    		Sorabji: Opus Clavicembalisticum, final section (25:16);
+	    		14 in Davidovsky: Inflexions, p. 13 (11:14, crossing a
+	    		barline).
+	 		</li>
+		</ol>
+	</li>
+
+	<li> Nested: most levels {B&amp;I 11.13}
+		<ol type="i">
+			<li>
+	    		4 occurs several times in Brian Ferneyhough: String
+	    		Quartet no. 3 (1987; Peters ed.), II: e.g., m. 6, it's
+	    		5:3 eighths, 5:3 eighths, 9:8 32nds, 3:2 32nds. However,
+	    		it's doubtful if the last level--in this instance, at
+	    		least--could have any audible effect, and almost certainly
+	    		any effect would be far more subtle than other unintentional
+	    		and (probably) intentional timing fluctuations; therefore,
+	    		this notation is essentially conceptual.
+	 		</li>
+
+			<li>
+				Runner-up: 3 in Stockhausen: Klavierstueck I (1952) (3:4, 7:8, 3).
+			</li>
+		</ol>
+	</li>
+
+	<li> Largest "compression ratio"
+		<ol type="i">
+	 		<li>
+				With small notes (suggesting grace notes or a cadenza,
+	 			and therefore less impressive). 40:4 = 10:1 in Chopin:
+	 			Nocturne in F#, Op. 15 no. 2 (Henle ed.), m. 51; 58:6 =
+	 			over 9.5:1 in Chopin: Etude in C-sharp minor, Op. 25 #7
+	 			(1836; Paderewski ed.). The notes in the tuplet are written
+	 			as 8th notes, and the group fills a measure of 3/4. The
+	 			notes are all small except the first. Runner-up: 48:6 =
+	 			8:1 in Chopin: Nocturne in Db, Op. 27 no. 2 (1835; Henle
+	 			ed.), all in small 8th notes, filling a measure of 6/8.
+	 		</li>
+
+	 		<li>
+	    		Entirely in full-size notes.  Haydn's *Variations in F
+	    		minor (composed 1793; Henle ed.) has 20:4 = 5:1
+	    		eighth-notes in m. 186 and m. 188.  While these are not
+	    		small notes in the Henle Urtext edition, they are in
+	    		some older editions, like the one edited by Paderewski.
+	    		Runners-up: Measures 187 and 189 of the same work have
+	    		19:4 = 4.75:1 eighth-notes. (Both contributed by Bala)
+	    		Also 7:2 = 3.5:1 in Chopin: Prelude in D-flat, Op. 28
+	    		no. 15; nested 3:2 and 7:4 = 21:8 = 2.625:1 in Bartok:
+	    		Bluebeard's Castle (1911), p. 118.
+	 		</li>
+      </ol>
+   </li>
+
+	<li>Most staves a tuplet is on (in a single system) {B&amp;I 11.11}
+		<ol type="i">
+			<li>
+	    		3 in Varese: Ionisation (1931; Colfranc ed.), at rehearsal
+	    		no. 8. But it seems likely there are many other occurrences
+	    		of tuplets across 3 staves.
+			</li>
+		</ol>
+	</li>
+</ol>
+
+
+
+
+<h3>5. Most complex polymeter. <h4>See Read (1978).</h4></h3>
+
+<br />
+
+
+<h3>6. Time signature extremes</h3>
+
+
+
+<ol type="a">
+	<li> Simple time signatures: duration, numerator, and denominator extremes {B&amp;I 10.1}
+		<ol type="i">
+      	<li>
+	 			Shortest duration. 7/128 in Crumb: *Black Angels (1970),
+	 			5th section ("Danse macabre") (7/128 time) (contributed
+	 			by Hook). Runners-up: 1/16 in Stockhausen: Zeitmasse
+	 			(Universal ed., 1957) (1/16 and 2/32 time). 3/32 in the
+	 			Stockhausen and in Webern: String Quartet, Op. 28 (Universal
+	 			ed.).
+      	</li>
+
+      	<li>
+	 			Longest duration. 24 whole notes(!) in Telemann:
+	 			Brobdingnagische Gigue, in Gulliver Suite (24/1 time); the
+	 			shortest note value it contains is a whole. (contributed
+	 			by Black)
+      	</li>
+
+      	<li>
+	 			Largest numerator. 142 in Stockhausen's Klavierstuck IX
+	 			(Universal, 1967): m.1 is in 142/8 time. (contributed by
+	 			Hook) Runners-up: 87 in Stockhausen's Klavierstuck IX, m.2
+	 			(in 87/8 time); 47 in Nancarrow: Study no. 3a for Player
+	 			Piano (publ. 1983?) (47/16 time); 43 in the same piece
+	 			(43/16 time).
+      	</li>
+
+      	<li>
+	 			Largest denominator. 128 in Crumb: *Black Angels, 5th
+	 			section ("Danse macabre") (7/128 time) (contributed by
+	 			Hook). Runners-up: 64 in the same section of the Crumb
+	 			work (7/64 time) (contributed by Hook). 32 in many works,
+	 			e.g., Beethoven: Piano Sonata no. 32, Op. 111, II (12/32
+	 			time); Stockhausen: Zeitmasse (2/32, 3/32); Webern: String
+	 			Quartet, Op. 28 (1938) (3/32).
+      	</li>
+		</ol>
+	</li>
+
+	<li> Complex/compound/irregular meters {B&amp;I 10.1}
+		<ol type="i">
+			<li>
+	 			Most numerators in an "additive" (the term is from Read
+	 			(1978)) meter: 4 in Bartok: Dance in Bulgarian Rhythm no.
+	 			5, in Mikrokosmos (1926-39; Boosey &amp; Hawkes ed.) Book 6:
+	 			specifically, (2+2+2+3)/8; 4 in Messiaen: Un Vitrail et
+	 			des Oiseaux (1986): specifically, (3+2+2+2)/32.
+      	</li>
+
+			<li>
+	 			Complexity of additive meters: The Sedi Donka is a Bulgarian
+	 			folk dance dance. It (or a version of it) appears in *a
+	 			book by Manol Todorov, where it is written as 7/8 + 7/8 +
+	 			11/8, but it can be broken down further as (3+4)+(3+4)+(4+3+4)/8,
+	 			and further still by replacing the 4's with 2+2's. In any
+	 			case, the total number of numerator units is 25. (contributed
+	 			by Aberg)
+      	</li>
+		</ol>
+	</li>
+
+   <li>
+      Non-power-of-2 denominator: A time signature of 12/12 appears
+      in the clarinet part of Franz Berwald's Quartet for Piano and
+      Winds (1819!), II (vol. 13, p. 29 of the complete works).
+      (The obvious way to express what seems to be intended would
+      be simply 12/8! Perhaps the 12/12 is a mere mistake.)
+      (contributed by Guerin) Herbert Bruen has used a denominator
+      of 12, e.g., 5/12, I believe for what most people would write
+      as (3+2/3)/8. Thomas Ades has written a measure of 2/6 time,
+      consisting of a half note with a triplet 3 over it, i.e., 2/3
+      of a half note; he's also written 1/6 in his *Asyla, II. But
+      this kind of thing can also be written with unconventional
+      numerators instead of denominators: Boulez has written what
+      is probably the same thing as (2/3)/4. Time signatures like
+      8/9 and 8/12 appear, e.g., in Frescobaldi, but apparently
+      just to cancel previous proportions and not to indicate
+      durations of 8/9 or 8/12 of anything, and this usage should
+      not be considered CMN.
+   </li>
+</ol>
+
+
+
+<h3>7. Slur maximums <h4>(including ties and phrase marks)</h4></h3>
+
+
+
+<ol type="a">
+	<li> Longest slur {B&amp;I 17.5}
+		<ol type="i">
+			<li>
+				In number of systems:
+				Chopin, Ballade no. 2, Op. 38 (composed 1836-1839; London first edition by Wessel and Co.) has a slur extending across 9 systems, starting at the beginning. Runners-up: Alkan, Saltarelle, Op. 23 (composed 1844), p. 6, has a slur extending across 6 systems (Richault edition). (Both contributed by Bala)
+				Berg: Wozzeck (1914-21), Act III, Scene 4, piano/vocal score has a slur across 5 systems, and several across 4 systems.
+			</li>
+		</ol>
+	</li>
+
+	<li> Slur with most inflection points {B&amp;I 17.17}
+		<ol type="i">
+     		<li>
+       		Sorabji: Opus Clavicembalisticum (1930), IX [Interludium B]
+       		(Curwen ed., pp. 175-176) includes a slur with a total of
+       		10(!) inflection points (in <a href="http://www.informatics.indiana.edu/donbyrd/InterestingMusicNotation.html">Byrd,
+       		2017a)</a>; it spans three systems, repeatedly crosses three
+       		staves (this is also the most staves in a single system for
+       		any slur I know of), and goes slightly backwards--i.e., from
+       		right to left--several times.  Henri Dutilleux: Piano Sonata
+       		(1948; Durand ed.), III ("Choral et variations"), 2nd
+       		variation, also has 10 inflection points; it's slightly less
+       		impressive in that it repeatedly crosses only two staves and
+       		it never backs up. (contributed by Hook)
+    		</li>
+
+			<li>
+				Runners-up: 8 inflection points in Henri Dutilleux: *Piano
+				Sonata (1948), III ("Choral et variations"), 2nd variation (contributed
+				by Hook). Ravel: Le Tombeau de Couperin (1914-17), Minuet, has a
+				slur with 7 inflection points, repeatedly crossing two staves
+				(contributed by Hofstadter). Stockhausen: Zeitmasse has a slur with
+				4 inflection points on a single staff; Ravel: Gaspard de la Nuit,
+				Scarbo, p. 41, has one with 3 inflection points.
+			</li>
+
+			<li>Tie with most inflection points. Bach: Goldberg Variations, no.
+				16 (Kirkpatrick/Schirmer ed.), has a tie with two inflection
+				points(!); it's in the middle voice of three on its staves, and
+				there's very little vertical space between the tied note and notes
+				in the surrounding voices.
+			</li>
+		</ol>
+	</li>
+
+   <li> Most nesting {B&amp;I 17.4}
+		<ol type="i">
+			<li>
+				Three levels: Schoenberg: Variations for Orchestra, Op.  31
+				(1928), Theme; Berg: Violin Concerto (1935), I (Universal
+				Edition, mm. 47-48: solo violin) and II (mm.  174-75, 177:
+				solo and orch. violins). In all cases, the innermost level
+				is a tie; the others are presumably slur and phrase mark.
+				Three levels is probably not too unusual.
+			</li>
+		</ol>
+	</li>
+
+</ol>
+
+
+
+<h3>8. Shortest performed duration</h3>
+
+
+
+<ol type="a">
+   <li>
+      Normally-played notes. Alkan: Etude No. 7 ("Symphonie, Finale")
+      from Douze études dans tous les tons mineures, Op. 39 (1857),
+      is marked whole note = 96, so the 16ths in mm. 357-382 last
+      39 milliseconds each. However, a live recording by Marc-André
+      Hamelin is at whole note = 104 here, so that each note lasts
+      a mere 36 ms.! (contributed by Bala) Runners-up: There are
+      several likely candidates by Alkan. Chopin: Etude in C major,
+      Op. 10 no. 1, in a 2005 recording by Vladimir Ashkenazy, has
+      notes lasting about 80 ms. (16th notes at a tempo of ca.
+      quarter = 200). NB: this is really the time between notes
+      onsets; presumably the actual durations are slightly less.
+   </li>
+
+   <li>
+      Other. Debussy: Pour le Piano (1901), I, has a glissando of
+      30 notes, with each note's duration less than 30 milliseconds!
+      The glissando has a notated duration just under a half note.
+      (Of course, glissandi for keyboard instruments, unlike those
+      for most others, involve discrete notes.) A realistic fast
+      tempo is something like quarter = 150; at that tempo, a half
+      note lasts about 800 millisec., so the duration of each note
+      is less than 27 millisec.
+   </li>
+
+</ol>
+
+
+
+</details>
+
+<!--
+   vim: ts=3
+-->
+
+<details>
+
+
+<a name="dynamics"> </a>
+<summary>Dynamics</summary>
+
+
+
+<h3>1. Softest {B&amp;I 16.1}</h3>
+
+
+
+<ol type="a">
+   <li>
+      <i>pppppppp</i> (8 p's) in Ligeti's Etudes for Piano, 1st
+      Book (1988-94), no. 4, m. 170 and 2nd Book, no. 9 (contributed
+      by Hook), and in Helmut Lachenmann: Echo Andante for piano
+      (1962), last note (contributed by Gottlieb).
+   </li>
+
+	<li>Runners-up: 
+      <i>ppppppp</i> (7 p's) in Verdi: Otello, Act II, Scene 5
+      (Schirmer ed., p. 187) (contributed by Forty).
+
+      <i>pppppp</i> (6 p's) in Tchaikovsky: Symphony No. 6, Op. 74
+      (1893), I, m.160, bassoon; in Henze: Koenig Hirsch (1952-55),
+      end of Act I; and in Ligeti:
+
+      Etudes for Piano, 2nd Book (1988-94). <i>ppppp</i> (5 p's)
+      appears in works of Tchaikovsky, Mahler, etc. Of course, it
+      could be argued that <i>il più piano possibile</i> or equivalent
+      is softer.
+   </li>
+</ol>
+
+
+
+<h3>2. Loudest {B&amp;I 16.1}</h3>
+
+
+
+<ol type="a">
+	<li>
+      <i>ffffffff</i> (8 f's) in Ligeti: Etudes for Piano, 2nd Book,
+      nos. 13 and 14.
+   </li>
+
+	<li>
+      Runners-up: <i>fffff</i> (5 f's) in in Tchaikovsky: The Tempest
+      symphonic fantasia, Op. 18 (1873), at rehearsal mark 18, many
+      instruments (contributed by Parsons); Henze: Barcarolla for
+      Large Orchestra, near the end, many instruments; and Ives:
+      Putnam's Camp, in Three Places in New England (Mercury ed.),
+      last chord, piano (but this might be a misprint, since many
+      other instruments have 4 f's). Again, of course, <i>il più
+      forte possibile</i>, <i>con tutta forza</i>, or equivalent
+      is arguably louder.
+
+   	(Tchaikovsky: 1812 Overture, a piece that's famous for its
+   	loudness, reaches only <i>ffff</i> (p. 81). But obviously
+   	instrumentation--i.e., fireworks and cannon in some performances--is
+   	a factor!)
+	</li>
+</ol>
+
+
+
+</details>
+
+<!--
+   vim: ts=3
+-->
+
+<details>
+
+
+<a name="other"> </a>
+<summary>Other</summary>
+
+
+
+<h3>1. Vertical extremes</h3>
+
+
+
+<ol type="a">
+	<li>
+      For comparison to well-known works, Stravinsky: Le Sacre du
+      Printemps (1913), with its very large orchestra, uses a maximum
+      of 35 staves and ca. 38 notated voices.
+
+      R. Strauss: Elektra (1909), with an even larger orchestra,
+      uses a maximum of 41 staves.
+	</li>
+
+	<li> Most simultaneous notated staves {B&amp;I 1.7}
+		<ol type="i">
+
+			<li>
+	    		Ligeti: *Atmospheres (3rd ed., Universal) has a system
+	    		of 77 staves on p. 15 (contributed by Elkies). The 1st
+	    		ed. has "only" 70 staves (1961; Universal ed., p.13).
+	    		The 56 strings are completely divisi in both editions.
+			</li>
+
+			<li>
+	    		Runners-up: Penderecki: Symphony no. 1 (1975) has 71
+	    		(there are two Schott editions; it's p. 33 in one, p.
+	    		43 in another!).
+
+       		(He uses a large orchestra, and the 46 strings are completely
+       		divisi.) NB: the notation is typical Penderecki, and it might
+       		be argued--but not, in my opinion, very convincingly--that
+       		it doesn't belong here because it's not CMN. 61 staves in
+       		Carter: Concerto for Orchestra (1969), on a page near the
+       		end. A famous early example and more distant runner-up is a
+       		Mass by Benevoli (1628) that uses 53 staves.
+			</li>
+		</ol>
+	</li>
+
+	<li>Most simultaneous notated voices {B&amp;I 1.6}
+		<ol type="i">
+			<li>
+				79 in Ligeti: Atmospheres (1st ed., Universal, p.13).
+			</li>
+
+			<li>
+	    		Runners-up: 71 in Penderecki: Symphony no. 1, on the
+	    		page with 71 staves. Carter: Concerto for Orchestra
+	    		(1969) has 69 on the same page with 61 staves.
+			</li>
+
+			<li>
+	    		A more distant runner-up is Xenakis: Metastasis (1954-55),
+	    		for 61 instruments, in which every player plays a
+				separate part for the entire piece.
+			</li>
+		</ol>
+	</li>
+
+	<li> Most simultaneous notated parts {B&amp;I 1.6}. NB: "part" is not
+      really well-defined, so neither are these numbers.
+
+		<ol type="i">
+	 		<li>
+				At least 80 in Ligeti: Atmospheres. Runner-up: 71 in
+	 			Penderecki: Symphony no. 1.
+			</li>
+		</ol>
+	</li>
+
+	<li>
+      Maximums for a chord (where a "chord" refers to the notes in
+      one voice and attacked simultaneously {B&amp;I 4.24}, and, if a
+      stem is present, on one stem)
+
+		<ol>
+			<li>
+	    		Most notes with individual heads (i.e., non-cluster
+	    		notation) : 24 in Scriabin: Piano Sonata no. 7, Op. 64,
+	    		last page.  Runners-up: 20 in Alkan: Quasi-Faust (2nd
+	    		movement of the Grande Sonate, Op. 33, composed 1847);
+	    		19 (covering a range of 6 octaves) in Alkan: Trois
+	    		Grandes Etudes, Op. 76 (Billaudot ed.), no. 2; 16 in
+	    		the piano part of Ives: The Housatonic at Stockbridge,
+	    		in Three Places in New England, last page.
+			</li>
+
+			<li>
+	    		Most notes regardless of notation {B&amp;I 4.24, 4.26): 88
+	    		for piano -- all the keys of a normal instrument -- in
+	    		Joseph Schwantner: Magabunda (1983), near the beginning
+	    		of the 2nd movement (cluster notation) (contributed by
+	    		Primosch). Runners-up: 53 for piano in Cowell: Tiger
+	    		(1928; Associated ed.) (cluster notation).
+			</li>
+
+			<li>
+	    		Most grace notes: 4 in Paganini: Caprice in g, Op. 1
+	    		no. 10 (Dover); in Scriabin: Piano Sonata no. 6 (Dover),
+	    		p. 119, and Sonata no. 7 (Dover), p. 166; and in Messiaen:
+	    		Oiseaux Exotiques.
+			</li>
+
+			<li>
+	    		Most accidentals: 16(!) in the piano part of Ives: The
+	    		Housatonic at Stockbridge, in Three Places in New
+	    		England, last page.
+
+	 			Runners-up: 7 (6 on one staff) in Ives: General William
+	 			Booth Enters into Heaven (Presser ed.), mm. 106 and 107.
+	 			6 (on one staff) in Ives: Putnam's Camp, in Three Places
+	 			in New England, p. 46.
+
+	 			5 in Bartok: Piano Concerto no. 1 (Universal ed.), II, p.
+	 			95; Debussy: Preludes (Dover), La terrasse des audiences
+	 			de clair de lune, p. 83; Messiaen: Quartet for the End of
+	 			Time (Durand), I, mm. 4, 12, 20; and Ravel: Ravel: Gaspard
+	 			de la Nuit (Dover ed. _Piano Masterpieces of Maurice
+	 			Ravel_), Scarbo, p. 115.
+			</li>
+
+			<li>
+	    		Most fingerings: 4 in Brahms: Capriccio, Op. 116, no.
+	    		7 (Breitkopf &amp; Hartel Complete Works ed.), p. 65.
+			</li>
+		</ol>
+	</li>
+
+	<li>
+		Most written notes in a vertical simultaneity: (no entry yet)
+	</li>
+
+	<li>
+		Most staves a stem has notes on  {B&amp;I 4.27}
+
+		<ol type="i">
+
+			<li>
+	    		Crumb: Black Angels (1970) has stems extending across
+	    		4 staves, with notes on each staff.
+			</li>
+		</ol>
+	</li>
+
+	<li>Maximums for one instrument and performer
+		<ol type="i">
+			<li>
+	    		Most simultaneous notes for one instrument and performer:
+	    		57 in Cowell: Tiger, for piano (cluster notation)
+			</li>
+
+			<li>
+	    		Most simultaneous staves for one instrument and performer:
+	    		10(!) in the piano part of Xenakis: Synophai (1969;
+	    		Salabert ed.), mm. 94-99. Also 10 in Nancarrow: Study
+	    		no. 27 for Player Piano (publ. 1977), but--while this
+	    		is one instrument--it's <i>no</i> performers. Runner-up:
+	    		5 in the last pages of Sorabji: Opus Clavicembalisticum
+	    		(1930), for piano.
+			</li>
+
+			<li>
+	    		Most simultaneous notated voices for one instrument and
+	    		performer: The fugato in Alkan's Quasi-Faust (2nd
+	    		movement of the Grande Sonate, Op. 33, composed 1847)
+	    		goes up to at least 8 voices, 4 notated in each hand
+	    		(contributed by Bala). 6 in the keyboard version of
+	    		Bach: 6-Part Ricercare from the Musical Offering (Dover
+	    		reprint of Breitkopf &amp; Hartel ed.).
+			</li>
+		</ol>
+	</li>
+
+	<li>Maximums for one staff
+		<ol type="i">
+			<li>Most simultaneous notated voices {B&amp;I 1.9}
+				<ol type="1">
+					<li>
+
+		  				5 voices on a staff occurs momentarily in Bach:
+		  				Prelude to English Suite no.1 (1725?; Bach-Gesellschaft
+		  				ed.), mm. 2-3, and in Beethoven: Piano Sonatas
+		  				Op. 27 #2 ("Moonlight"; 1801), III, mm. 162-165,
+		  				and no. 23, Op. 57 ("Appassionata"; 1806), I, m.
+		  				123 (Schenker eds.). But in all, it's simply a
+		  				series of separately-attacked notes tied into a
+		  				chord (and in the Beethoven cases, double-stemmed
+		  				as both a single voice and independent voices).
+		  				A clear-cut case of 4 voices on a staff occurs
+		  				in the keyboard version of Bach: 6-Part Ricercare
+		  				from the Musical Offering, and in Bach: "Jesu,
+		  				Joy of Man's Desiring", arranged by Dame Myra
+		  				Hess (Oxford ed.), mm. 29-31. 4 occurs in Beethoven:
+		  				Piano Sonata no. 11, Op. 22 (1800; in 3 of 3 eds.
+		  				I checked, including Schenker's), I, mm. 91-103,
+		  				though it's simply a series of arpeggios with
+		  				attack rhythm written out. 4 occurs in Beethoven:
+		  				Piano Sonata no. 2, Op. 2 no. 2, I, p.24, m. 272,
+		  				and no. 3, Op. 2 no. 3, I, mm. 221-225 (1795);
+		  				Piano Sonata no. 11, Op. 22 (1800), I, mm. 91-103
+		  				(all in 3 of 3 eds. I checked, including Schenker's);
+		  				and repeatedly in Brahms: Intermezzo, Op. 119 no.
+		  				1 (International ed.)--though in all it's simply
+		  				a series of arpeggios with attack rhythm written
+		  				out. 4 occurs repeatedly in Bach's solo violin
+		  				sonatas and partitas, and in Brahms: Romance, Op.
+		  				118 no. 5, but rarely if ever are the supposed
+		  				voices truly all independent.
+					</li>
+
+					<li>
+
+		  				Runners-up: 3 voices on a staff is fairly common
+		  				in fugues for keyboard instruments written on two
+		  				staves, e.g., the c-sharp minor Fugue in Bach:
+		  				The Well-Tempered Clavier, I, and Bach: Goldberg
+		  				Variations, no. 16. It's not that unusual even
+		  				in keyboard music that's less contrapuntal,  e.g.,
+		  				Schubert's song Der Juengling und der Tod (Peters
+		  				ed.), and perhaps on wind staves in pieces for
+		  				large orchestra. It also occurs in music that's
+		  				much simpler, e.g., "Vigilante Man" in A Tribute
+		  				to Woody Guthrie (Ludlow Music, 1972), where the
+		  				main rhythm is in normal-size notes and two
+		  				variants (for different verses) in small notes,
+		  				one stem up and stem down. Chopin's Nocturne, Op.
+		  				15 no. 2 (in <a href="http://www.informatics.indiana.edu/donbyrd/InterestingMusicNotation.html">Byrd,
+		  				2017a)</a>, has beaming clearly indicating 3
+		  				voices (and suggesting 4) on the staff even though
+		  				there are only 1 or 2 notes at a time.
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+
+	<li>
+   	Most figures in a figured bass symbol {B&amp;I 19.2}: 6 in "Le
+   	Cahos" from Jean-Fery Rebel's *"Les Elèments" (1737) begins with
+   	a low D and a stack consisting of: 6b 5 4 3 2 7#  (contributed
+   	by Guerin).
+	</li>
+</ol>
+
+<h3>2. Horizontal extremes.
+	<h4>
+       NB: While not excluded, dramatic works are neglected here
+       mostly because it's difficult to get useful information on
+       lengths of major dramatic works; also, it's not clear what
+       a "movement" is in an opera, etc.
+	</h4>
+</h3>
+
+<ol type="a">
+	<li>Most notes/chords
+		<ol type="i">
+			<li>notes/chords in one beamset {B&amp;I 12.1} 
+				<ol type="1">
+					<li>
+		  				Unconditionally, 1440(!) in John Adams's China
+		  				Gates (Associated Music Publishers, 1983); the
+		  				beam extends over all 9 pages of the score,
+		  				covering 48 systems. (contributed by Hook)
+		  				Runner-up: 643 in Don Freund: Hard Cells (1989;
+		  				MMB Music ed.), percussion; the beamset extends
+		  				for more than 80 measures, across 11 systems.
+					</li>
+
+					<li>
+		  				Broken across three systems, 132 in Liszt:
+		  				Transcendental Etude no. 4 ("Mazeppa") (1827,
+		  				rev. 1837; Baerenreiter Neue Ausgabe ed., 1970).
+
+						This has 15 secondary beam breaks(!) and 28 segments.
+	       		</li>
+
+					<li>
+		  				Broken across two systems, 70 in a cadenza
+		  				apparently by Beethoven for the 1st movement of
+		  				his Piano Concerto no. 2,
+
+		     			Op. 19 (Breitkopf &amp; Hartel ed.). Runner-up:
+		     			67 in Bartok: Rhapsody, Op. 1 (Boosey &amp;
+		     			Hawkes ed.).
+					</li>
+
+					<li>
+		  				On one system, 59 in Liszt: Hungarian Rhapsody
+		  				no. 2, and in Rachmaninoff: Piano Concerto no. 2
+		  				(Schirmer 2-piano ed.), II.
+					</li>
+				</ol>
+			</li>
+
+			<li>grace notes/chords in one beamset {B&amp;I 12.1}
+				<ol type="1">
+					<li>
+		  				Hugues Dufourt: *Antiphysis has 28 in the solo
+		  				flute. (contributed by Starr)
+					</li>
+
+					<li>
+		  				Note that in cadenza-like passages, it may be
+		  				impossible to distinguish between small normal
+		  				notes and grace notes.
+					</li>
+				</ol>
+			</li>
+
+			<li>
+				in one measure: (no entry yet)
+			</li>
+		</ol>
+	</li>
+
+	<li>Most appearances of a voice in one measure
+		<ol type="i">
+	 		<li>
+				A voice (indicated by upstems on isolated notes)
+	 			appears, disappears, and reappears five times in m. 175
+	 			of Chopin: Ballade no. 4 in f, Op. 52.
+			</li>
+		</ol>
+	</li>
+
+	<li>Longest movement
+		<ol type="i">
+			<li>
+				In measures (and quarter-note durations): Allan Pettersson: Symphony
+				no. 9 (1970) is one movement of 2145 measures. Wagner: Rienzi (1840;
+				shortened version, 1843; Schott ed., 1982) has one scene of 1384
+				measures; it's mostly in 2/2 or 4/4, but includes substantial
+				passages in 2/4, 3/4, and 6/8. But this scene also contains 1042
+				measures from the original version, for a total of 2426, though no
+				performance would include all (see below); nonetheless--if measures
+				printed rather than performed is the criterion--this score holds
+				the record. Runners-up:
+
+	    		Mahler: *Symphony No. 8 (1906), 2nd movement, is 1572
+	    		continuous measures (contributed by Bala).
+
+	    		Alkan: Etude no. 8 ("Concerto, Premiere Partie") from
+	    		Douze etudes dans tous les tons mineur, Op. 39, is 1342
+	    		bars; it's in 3/4 (contributed by Starr). Schubert:
+	    		Symphony no. 9, IV, is 1154 measures; it's in 2/4.
+			</li>
+
+			<li>
+	    		In pages: Pettersson: Symphony no. 9 (Nordiska Musikforlager
+	    		ed.) is one movement of 385 pages. Runner-up: Beethoven:
+	    		Symphony no. 9, IV (Eulenberg ed.), fills 128 pages.
+	    		(But this is very edition-dependent: in the Dover
+	    		edition, this movement is only 88 pages.)
+			</li>
+
+			<li>
+	    		In performance time: Satie: Vexations (unmeasured, 52
+	    		beats to be repeated 840 times, lasting a total of about
+	    		18 hours in the first performance). But this--while not
+	    		unplayable--might still be disqualified as being
+	    		conceptual. A clear-cut case, or at least runner-up:
+	    		Pettersson: Symphony no. 9 is one movement lasting 65-70
+	    		minutes. [Chopin: Mazurka Op. 7 no. 5 is marked "Dal
+	    		segno senza Fine", i.e., infinite length! (Contributed
+	    		by Nettheim) A case can made that the longest work of
+	    		finite duration is John Cage's Organ^2/ASLSP (As SLow
+	    		aS Possible). A performance in Halberstadt, Germany,
+	    		began in September 2001, so it has been going on for
+	    		over seventeen years; it is intended to last for 639
+	    		years! (Cage himself didn't specify the tempo or duration
+	    		other than via the phrase "as slow as possible"; a group
+	    		of musicologists and philosophers chose the duration.
+	    		Cf. the Wikipedia article "As Slow as Possible".)
+	    		(contributed by Brady)]
+	 		</li>
+
+			<li>
+	    		In number of notes: (no entry yet, but Pettersson:
+	    		Symphony no. 9 is a very good candidate.)
+			</li>
+		</ol>
+	</li>
+
+	<li>Shortest movement
+		<ol type="i">
+			<li>
+	    		In measures: no. 4 of Webern: Five Pieces for Orchestra,
+	    		Op. 10 (1911-13), is 6 and 1/3 measures (in 3/4).
+	    		Runner-up: no. 3 of Webern: Three Little Pieces for
+	    		Cello and Piano, Op. 11, is 10 measures (of 2/4). Not
+	    		surprisingly, Webern is responsible for many candidates
+	    		for shortest movement, depending on the exact criteria.
+			</li>
+
+			<li>
+	    		In pages: no. 3 of Webern: Three Little Pieces for Cello
+	    		and Piano, Op. 11, is one system of three staves--perhaps
+	    		1/3 of a page.
+			</li>
+
+			<li>
+	    		In performance time: no. 4 of Webern: Five Pieces for
+	    		Orchestra, Op. 10 is 19 sec. at the tempo marked
+				(quarter = 60 for a duration of 19 quarters).
+			</li>
+
+			<li>
+	    		In number of notes: No. 3 of Webern: Three Little Pieces
+	    		for Cello and Piano, Op. 11, contains 21 sounding notes
+	    		(attacks). Runner-up: no. 4 of Webern: Five Pieces for
+	    		Orchestra, Op. 10, contains 47 sounding notes.
+
+	    		[Each of the three movements of John Cage's famous 4'
+	    		33" (1960) is entirely silent and contains zero sounding
+	    		notes: clearly a piece of much conceptual interest, but
+	    		no musical interest in the normal sense. The same is
+	    		true of Philip Corner: *One Note Once, which is exactly
+	    		what it sounds like.]
+	 		</li>
+
+			<li>
+	    		If the Adagio between the two fast movements of Bach:
+	    		Brandenburg Concerto no. 3 is considered a movement,
+	    		it wins each of the above categories: it's one measure,
+	    		less than 1/10 of a page, lasts just a few seconds, and
+	    		contains only 20 notes. (contributed by Hiew) However,
+	    		I'm inclined to consider it a mere transition between
+	    		the first and third movements; besides, in performance,
+	    		it's nearly always expanded with something improvisational,
+	    		not played as written.
+			</li>
+		</ol>
+	</li>
+
+	<li>Longest complete work
+		<ol type="i">
+			<li>
+	    		In measures: Wagner: Rienzi (1840; revised 1843) is in
+	    		five acts with 408 (overture) + 1244 + 1936 + 1487 +
+	    		605 + 937 = 6617 measures. (This seems to be the later,
+	    		shortened version of the opera, in the 1982 Schott
+	    		piano/vocal edition. That edition contains many additional
+	    		passages without measure numbers--most marked "urspruengliche
+	    		Version", i.e., original version--with an additional
+	    		134 + 1094 + 163 + 108 + 85 = 1584 measures, for a total
+	    		of 8201; since many of the superseded passages have
+	    		replacements, neither the original nor the revised
+	    		version includes all measures. Nonetheless--if measures
+	    		printed rather than performed is the criterion--the
+	    		latter value applies.) Runner-up: Hans Werner Henze:
+	    		Koenig Hirsch (1952-55) is in three acts with 2471 +
+	    		2225 + 990 = 5686 measures.
+			</li>
+
+			<li>
+	    		In pages: This is very edition-dependent. The miniature
+	    		score of Wagner: Die Meistersinger (in an old Schott
+	    		edition, in three volumes) is 1441 pages. Runners-up:
+	    		The full score of Janacek: The Excursions of Mr. Broucek
+	    		("Die Ausfluge des Herrn Broucek", 1917; publisher
+	    		unknown) is 1006 pages (in two volumes). The full score
+	    		of Mussorgsky: Boris Godounov (Oxford ed.) is 929 pages
+	    		(this is the record for a single volume); of Die
+	    		Meistersinger (Peters ed., reprinted by Dover), 817.
+			</li>
+
+			<li>
+	    		In performance time: At least one performance of Kaikhosru
+	    		Sorabji's Sequentia cyclica super "Dies irae" ex Missa
+	    		pro defunctis, by a solo pianist, has lasted some 8 or
+	    		9 hours (contributed by Isaacson). Runner-up: Kaikhosru
+	    		Sorabji: Opus Clavicembalisticum for piano (1930) lasts
+	    		about 4 to 4-1/2 hours. (Contributed by Fingerhut)
+			</li>
+
+			<li>
+	    		In number of sections: Bartok's Mikrokosmos contains
+	    		153 pieces, in six books. Runners-up: Ives' 114 Songs;
+	    		Bartok's 44 Duos for Two Violins; Schumann's Album for
+	    		the Young, Op. 68, contains 43 pieces, in two parts.
+			</li>
+		</ol>
+	</li>
+
+	<li>
+      Shortest duration a key signature is in effect: a single
+      quarter-note chord in Poulenc's song "Les Chemins de L'Amour"
+      (Eschig ed.); occurs twice, on pp. 1 and 2 (contributed by
+      Alpher).
+	</li>
+</ol>
+
+
+
+<h3>3. Tempo and metronome marks</h3>
+
+
+
+<ol type="a">
+	<li>Longest character string {B&amp;I 14.1} 
+		<ol type="i">
+			<li>
+	    		Mussorgsky's Pictures at an Exhibition starts with:
+	    		"Allegro giusto, nel modo russico, senza allegrezza,
+	    		ma poco sostenuto" (69 characters). (contributed by
+	    		Gedan)
+			</li>
+
+			<li>
+	    		Runner-up: Beethoven: *Mass in C, Op. 86 has "Andante
+	    		con moto assai vivace, quasi Allegretto, ma non troppo"
+	    		(62 characters). (contributed by Starr)
+			</li>
+		</ol>
+	</li>
+
+	<li>
+		Lowest number {B&amp;I 14.6}. For comparison, metronomes usually go down to M.M. 40.
+		<ol type="i">
+			<li>
+	    		Crumb: Spiral Galaxy, no. 12 in Makrokosmos I  (Peters
+	    		ed., 1973), is marked "eighth = 20 = 3 sec."
+			</li>
+
+			<li>
+	       	Runners-up: Martino: Notturno (1973) contains the
+	       	marking "half note = 24"; Crumb: Black Angels (1970),
+	       	Pavana lachrymae, contains "half = 30 (quarter =
+	       	60)". Martino: Impromptu for piano (1978) is marked
+	       	"quarter &lt;= 36";
+
+				Messiaen: Un Vitrail et des Oiseaux (1986) contains "eighth = 36".
+
+				See also the description of the Bartok runner-up for highest number.
+			</li>
+		</ol>
+	</li>
+
+	<li>
+      Highest number {B&amp;I 14.6}. For comparison, metronomes
+      usually go up to M.M. 208. In most if not all of these examples,
+      there's no consistent beat unit,  so the metronome mark is
+      based on a unit below the beat level, resulting in very large
+      numbers.
+
+		<ol type="i">
+			<li>
+	    		16th = 906(!) in *Picken (1975, music example 17, p.
+	    		305). This is an excerpt of a dance tune for the kemence
+	    		(Black Sea fiddle), from Macka in the Black Sea area
+	    		of Turkey; it was transcribed from a recording.
+	    		(contributed by Campin)
+	 		</li>
+
+			<li>
+	    		Runners-up: Hindemith: Sonata for Solo Viola, Op. 25
+	    		no. 1 (1922), IV, is marked "quarter = 600-640". The
+	    		notes for the Imai recording say that this is "completely
+	    		absurd", and suggest that Hindemith wrote the marking
+	    		tongue in cheek. That's a reasonable comment unless the
+	    		shortest duration is a quarter and the beats are longer
+	    		and irregular, which is in fact the case!
+			</li>
+
+	 		<li>
+				Runner-up: Bartok: Dance in Bulgarian Rhythm no. 1,
+	 			Mikrokosmos, Book VI, is marked "eighth = 350 (half tied
+	 			to quarter tied to dotted quarter = 39)"; notice it's also
+	 			a runner-up for lowest number. (The meter is (4+2+3)/8,
+	 			so there's no consistent beat unit, but the numbers for
+	 			all of the beat durations are somewhere in the middle.)
+			</li>
+		</ol>
+	</li>
+
+	<li>
+      Slowest in notated duration per unit time. Quintuplet 64th
+      note = 75 in Stockhausen: Xi (1992) (contributed by Ingram).
+	</li>
+
+	<li>
+      Shortest duration {B&amp;I 14.4}. Quintuplet 64th note = 75
+      in Stockhausen: Xi. Runner-up: 64th = 288 in Crumb: Madrigal
+      no. 1, from Madrigals, Book IV (1971).
+   </li>
+</ol>
+
+
+
+<h3>4. Rehearsal mark</h3>
+
+
+
+<ol type="a">
+   <li>
+		Longest {B&amp;I 7.15}. Strauss: An Alpine Symphony has one
+   	of four characters: "114a" (all or nearly all the other rehearsal
+   	marks are the expected consecutive integers).
+	</li>
+</ol>
+
+
+
+<h3>5. Performance direction (in the music, not on a separate page)</h3>
+
+
+
+<ol type="a">
+	<li>
+      Longest. Berlioz: Symphonie Fantastique, Op. 14, IV, has one
+      of 146 characters (in French): "Il faut frapper..."
+	</li>
+</ol>
+
+
+
+<h3>6. Part name or staff identification</h3>
+
+
+
+<ol type="a">
+	<li>
+	 	Longest {B&amp;I 1.10}. Ives: Putnam's Camp, in Three
+	 	Places in New England, has one of 47 characters: "Long
+	 	Snare Drum (snares muffled) or small Timp." Runner-up:
+	 	Haydn: Symphony no. 7 ("Midi"), II, has one of 38 characters:
+	 	"Violoncello, Basso Continuo, e Fagotto".
+	</li>
+
+	<li>
+      Longest abbreviated {B&amp;I 1.11}. Webern: Five Pieces for
+      Orchestra, Op. 10, has one of 19 characters: "Solo - Vlc. m.
+      Dpf."
+	</li>
+</ol>
+
+
+
+<h3>7. Staff sizes</h3>
+
+
+
+<ol type="a">
+	<li>
+      Most simultaneous {B&amp;I 18.3}. 3 in J. C. Bach: Concerto
+      for Harpsichord or Piano and Strings in E-flat, Op. 7 no. 5
+      (Dobereiner ed., 1927). One size appears only briefly, for
+      an ossia; this situation and number of sizes is surely not
+      too unusual.
+	</li>
+</ol>
+
+
+
+<h3>8. Note modifiers<h4>(accents, articulation marks, bowings, etc., but not fingerings)</h4></h3>
+
+
+
+<ol type="a">
+	<li>
+      Most on a single note/chord: Bartok: Ostinato, no. 146 in
+      Mikrokosmos (1926-39; Boosey &amp; Hawkes ed.), Book VI has
+      several occurrences of 3 (accent, tenuto, staccato dot).
+      Ligeti: Etudes for Piano, 2nd Book, no. 13 has many occurrences
+      of 3 normal accents and many occurrences of 3 "hat" accents.
+      Runners-up: 2 is not too unusual. Bartok: Allegro Barbaro
+      (1911; Schirmer ed.) has accent and tenuto. In every other
+      case I know of, one is a staccato dot, e.g., in Rachmaninoff:
+      Prelude, Op. 23 no. 5; Debussy: Suite "Pour le Piano" (1901;
+      Schirmer ed.), I; Stravinsky: Le Sacre du Printemps, Danses
+      des adolescentes.
+	</li>
+</ol>
+
+
+
+<h3>9. Endings</h3>
+
+
+
+<ol type="a">
+	<li>
+      Highest ending number {B&amp;I 20.1}.  9(!) in *"In the Heat
+      of the Summer" in The Complete Phil Ochs Collection (Almo
+      Publications, 1978). There's an ending marked "1.-8." for the
+      first eight verses, and one marked "9." for the last(?) verse.
+      (contributed by Good)
+	</li>
+</ol>
+
+
+
+<h3>10. Instruments to be played by one performer in a piece<h4>(excluding percussion)</h4></h3>
+
+
+<ol type="a">
+	<li>
+      Mahler: *Symphony no. 5 calls for one clarinetist playing six
+      different instruments.
+	</li>
+</ol>
+
+
+
+</details>
+
+<!--
+   vim: ts=3
+-->
+
+<details>
+
+
+<summary>Earliest Usages</summary>
+
+<p>
+	For contemporary notation, Risatti (1975) and Read (1978) have
+	numerous citations.
+</p>
+
+
+
+<h3>1. Pitch</h3>
+
+
+
+<ol type="a">
+	<li>	
+      Earliest split stem (a.k.a. "grape cluster"): Chopin: Etude
+      Op. 10 no. 11 (1831?; Paderewski ed.). Runner-up: Chopin:
+      Mazurka in a, KK IIb no. 4 (1840). Both cases are for augmented
+      unisons.
+	</li>
+
+	<li>
+		Earliest microtonal notation: *A piece by Nicola Vicentino (in
+		his "L'antica musica ridotta alla moderna prattica", 1555) (contributed
+		by McKay). Runners-up: *a four-voice work by Galeazzo Sabbatini (in
+		Kircher's "Musurgia universalis", 1650) (contributed by McKay);
+		Charles Delusse: *Air a la Greque (1760), which uses a + to indicate
+		a raise of one quartertone (contributed by Wolf). In more recent
+		times, I've seen J. Carillo (e.g., String Quartet (1895)) cited as
+		a very early author of microtonal music.
+	</li>
+
+	<li>
+      Earliest diatonic tone cluster: Heinrich Biber: Battaglia for
+      10 instruments (ca. 1673; in Schenk, 1997), 2nd mvmt., includes
+      a 4-note tone cluster (in m. 9: C#,D,E,F#); several 3-note
+      diatonic clusters; and at least one occurrence of two clusters
+      in different scales simultaneously (D,E,F-natural, and--in a
+      higher register--F#,G,A) (contributed by Wiering). This might
+      be considered a 6-note cluster, but I think not, because of
+      the change of register. (The different scales are because the
+      passage is polytonal(!): various instruments are playing in
+      C, D, and G.) Runners-up: Johann Kuhnau: Six Biblical Sonatas
+      (publ. 1700), no. 1, "Der Streit zwischen David und Goliath"
+      includes a cluster of C,D,E,G (contributed by Wolf). The
+      earliest example with more than 4 notes is Cowell: The Tides
+      of Manaunaun (probably 1917, not the claimed 1912) has
+      white-key-only and black-key-only clusters of 2 octaves. (NB:
+      as I use the term, the notes must be struck at once, and not
+      just sound together, to count as a tone cluster. Also, I
+      exclude acciaccaturas, examples of which can be found in many
+      composers, including D. Scarlatti and J.S. Bach.)
+	</li>
+
+	<li>
+      Earliest chromatic tone cluster: Beethoven: Piano Concerto
+      no. 4, Op. 58 (1805-06), I, 2nd theme includes a 3-note cluster
+      produced by a 3rd-inversion dominant 7th chord with an
+      ornamental note filling in the major 2nd: in the exposition,
+      adding a G# to the chord's G,A,C#,E (contributed by Elkies).
+      However, it's very short, and it's doubtful whether it's heard
+      as a cluster. The earliest univocal example is Verdi: Otello
+      (1887), Act I, which opens with a very lengthy cluster in the
+      organ of 3 notes (C2,C#2,D2). Earliest example with many
+      notes: Cowell: The Tides of Manaunaun has almost continuous
+      chromatic clusters of 1 octave to ca. 2-1/2 octaves.
+	</li>
+
+	<li>
+      Earliest double sharp: Arnold (1983) mentions Trabaci's *Il
+      secondo libro de ricercare (1615).
+	</li>
+
+	<li>
+      Earliest 15ma: Cowell's piano piece Advertisement (1914).
+	</li>
+
+	<li>
+      Earliest ledger line: Unclear. The article "Leger [Ledger]
+      Line" in Sadie (2001) (as quoted in the Wikipedia article
+      "Ledger line") says "Although ledger lines are found occasionally
+      in manuscripts of plainchant and early polyphony, it was only
+      in the early 16th century in keyboard music that their use
+      became at all extensive." Of course plainchant and "early
+      polyphony" aren't CMN. The article "ledger line" in Randel
+      (2003) comments that an early example of the extensive use
+      of ledger lines is Marc Antonio Cavazzoni's Recerchari Motetti
+      Canoni for organ (1523), but this is probably not CMN
+      either.
+	</li>
+</ol>
+
+
+
+<h3>2. Duration and Rhythm</h3>
+
+
+
+<ol type="a">
+	<li>
+      Earliest tuplets (in modern notation): Emanuel Adriaensen's
+      Pratum musicum (Antwerp, 1584) contains several triplets, one
+      of which is indicated with a "3" below the affected notes.
+      (Contributed by Crawford) Runner-up: Claude Le Jeune's setting
+      of Psalm 35, Deba contre mes debateurs (publ. in 1598;
+      transcription in Davison &amp; Apel, 1962), contains numerous
+      triplets, but I have no idea how the triplets were notated
+      in the original.
+	</li>
+
+	<li>
+		Earliest nested tuplets
+
+		<ol type="i">
+
+			<li>
+	 			Schubert: Adagio in G, D. 178 (1815!) uses triplets within
+	 			triplets (contributed by Bala).
+			</li>
+
+			<li>
+	 			Runners-up: Liszt: Transcendental Etude no.4 ("Mazeppa")
+	 			(probably 1837 or earlier) uses triplets within triplets.
+	 			(Caveat: This piece apparently was written in 1827, rev.
+	 			in 1837, and rev. again in 1854, and I don't know in which
+	 			version this feature was first used.)
+
+	    		Chopin: *Allegro de concert, Op. 46 (finished by 1841),
+	    		has sixteenth-note triplets inside eighth-note triplets
+	    		(contributed by Bala). Alkan: *Etude No. 9 ("Concerto,
+	    		Deuxième Partie") from Douze études dans tous les tons
+	    		mineures, Op. 39 (1857), mm. 115-133, 172-175, and
+	    		186-191: they are sixteenth-note triplets within
+	    		eighth-note triplets. Wagner: Tristan und Isolde (1859;
+	    		Dover ed.), Act III Scene I, p. 515, uses triplets and
+	    		sextuplets within a triplet.
+	 		</li>
+      </ol>
+   </li>
+
+	<li>
+      Earliest tuplets crossing a barline: In Alkan: Morte (Op. 15
+      No. 3, from Trois morceaux dans le genre pathetique, composed
+      1837), mm.223-4 have 5:4 quarter notes spanning both bars,
+      and mm. 303-4 have 9:8 eighth notes spanning both bars. The
+      section is in 2/4.
+
+      (Caveat re the measure numbers: this edition has several
+      editorial barlines before this, so other scores may not agree
+      on these numberings. Subtracting 23 from them should account
+      for that.) Runner-up: Brahms: Piano Sonata in F minor, Op. 5
+      (1853), V (4:3 quarter notes across the barline). (both
+      contributed by Bala)
+	</li>
+
+	<li>
+      Earliest half-note triplets (i.e., triplet with total duration
+      of a whole note): Berlioz's Symphonie Fantastique, Op. 14
+      (1830), I, bassoon and cello parts in mm. 282-83 (contributed
+      by Hook).
+	</li>
+
+	<li>
+      Earliest use of 32nd notes: G. Della Casa, Il vero modo di
+      diminuir (printed in 1584), Libro Primo, p. 27 (contributed
+      by Pugin). But this is arguably white mensural notation, not
+      CMN.
+   </li>
+
+	<li>
+      Earliest use of 64th notes: Orlando Gibbons: Pavane Lord
+      Salisbury (publ. in Parthenia, ca. 1612; in Davison &amp; Apel,
+      1962).
+   </li>
+
+	<li>
+      Earliest use of polyrhythm with non-coinciding barlines after
+      1700: Mozart: Don Giovanni (1787), ballroom scene, has 3/4
+      against 2/4 against 3/8.
+
+      (Relative tempi are 2/4 quarter = 3/4 quarter; 3/8 dotted
+      quarter = quarter of the others.)
+	</li>
+
+	<li>
+      Earliest feathered ("accelerando") beams: Risatti cites Heinz
+      Holliger: *Mobile (1964). Runner-up: Roger Reynolds: Quick
+      Are the Mouths of Earth (1965).
+   </li>
+
+	<li>
+      Earliest double dots: Chambonnieres: Les Pieces de Clavecin
+      (Paris, 1670). Double dots appear in Livre 1, p. 51, and Livre
+      2, pp. 2 and 49; they have their normal modern meaning.
+      (Contributed by Crawford. The articles "Notation" in Sadie
+      (1980) and Arnold (1983) mention this as an early example but
+      make no claim of it being the first use, though Arnold says
+      they were used from the 17th century onward. (Sadie (2001)
+      appears not to mention any early examples. Read (1969) says
+      they were first used in the late fifteenth century but gives
+      no details, and it's a pretty far-fetched idea.)
+	</li>
+
+	<li>
+      Earliest note/chord tied to a rest or to nothing at all:
+      Schumann: Piano Sonata no. 1 in f-sharp minor, Op. 11, II
+      (1836; Henle ed.) (contributed by Bastin). Runners-up: Ravel:
+      Jeux d'eau (1901); Scriabin: Poem(?), Op. 31? no. 2? (1903).
+	</li>
+
+	<li>
+      Earliest chord with some but not all notes tied to the next,
+      or from the previous, chord:
+
+      (1) Non-arpeggiated: Beethoven: Piano Sonata no. 7, Op. 10
+      no. 3, I (1797-98) has at least five; his Piano Sonata no.
+      28, Op. 101, I (1816) also has some. But this notation is not
+      all that interesting, and probably rather common as well.
+
+      (2) Arpeggiated (with attack rhythm specified, i.e., not just
+      via the arpeggio symbol): Haydn: Piano Sonata in E minor,
+      Hoboken XVI (publ. 1784; Peters-Martienssen ed.), I, has
+      several arpeggios of 2 or 3 notes with all notes tied into a
+      single chord following. Runners-up: Beethoven: Piano Sonata
+      no. 5, Op. 10 no. 1 (Schenker ed.), III, m. 112 has a 10-note
+      grace-note arpeggio across staves/hands with all but the first
+      4 tied into the following chords on both staves. His Piano
+      Sonatas Op. 2 no. 3, I (1795); no. 11, Op. 22 (1800), IV; no.
+      14, Op. 27 #2 ("Moonlight"; 1801), III, mm. 162-165; and no.
+      23, Op. 57 ("Appassionata"; 1806), I, m. 123, each have
+      arpeggios of up to 4 (5 in the "Moonlight" and "Appassionata"!)
+      notes with all notes tied into a single chord following; in
+      all but Op. 22, the notes are double-stemmed as both a single
+      voice and independent voices (for all, Schenker ed.). (This
+      notational feature is very interesting because it indicates
+      a "blurring" of voices. The identical effect occurs much
+      earlier, e.g., in Bach: Prelude to English Suite no.1 (1725?),
+      mm. 2-3, but there it's notated--at least in the Bach-Gesellschaft
+      edition!--as if the voices are really independent.)
+	</li>
+
+	<li>
+      Earliest beamed group crossing a barline: Beethoven: Piano
+      Sonata no. 7, Op. 10 no. 3 (Schenker ed.; in B &amp; M, 1948),
+      IV, mm. 1-2 and numerous places. Runner-up: Beethoven: Piano
+      Sonata no. 10 in G, Op. 14 no. 1 (Schenker ed.), I, mm.
+      121-122.
+	</li>
+
+	<li>
+      Earliest beamed group starting with a half-notehead: Chopin:
+      Piano Sonata no. 1, Op. 4 (1828?; Schirmer-Mikuli ed.), I,
+      p.4.
+
+      But apparently this  device already occurs in some guitar
+      music published around 1810. I (contributed by Crawford)
+	</li>
+
+	<li>Earliest time signature uses
+		<ol type="i">
+			<li>Earliest use of different time signatures simultaneously.
+				<ol type="a">
+					<li>
+		  				Different in appearance but effectively identical:
+		  				J.-B. Lully: Armide (1686; Eitner/Breitkopf &amp;
+		  				Hartel ed., 1885, reprinted in Burkholder, 2006),
+		  				Act II Scene 5, recitative has repeated instances
+		  				of combinations like "3" for voice and 3/4 for
+		  				continuo, or "2" for voice and cut time for
+		  				continuo.
+					</li>
+
+					<li>
+		  				Genuinely different: Variation 26 of Bach: Goldberg
+		  				Variations (1742; Bach-Gesellschaft ed.) starts
+		  				with one staff in 18/16 and the other in 3/4.
+		  				(Each staff changes between the two time signatures
+		  				repeatedly, at one point in the middle of a
+		  				measure! But relative tempi are such that barlines
+		  				always coincide.)
+					</li>
+				</ol>
+			</li>
+
+			<li>
+	    		Earliest use of multiple (alternate) time signatures
+	    		on a staff: the D-major Prelude in Bach: Well-Tempered
+	    		Clavier, Book II (1744; Bischoff/Kalmus ed.) has a time
+	    		signature on both staves of "C" juxtaposed to 12/8.
+			</li>
+
+			<li>
+	    		Earliest use of quintuple meter: Christopher Tye: In
+	    		Nomine XXI: Trust for viol consort (mid-16th century)
+	    		is entirely in 5/2 (contributed by Elkies). However,
+	    		this isn't really CMN.
+
+	    		Runners-up (and winners for unequivocal CMN): Handel's
+	    		Orlando (1733), Act II, scene XI, "Ah! stigie larve...",
+	    		pp. 65-66, contains a few measures in 5/8, which is
+	    		also the earliest known use of that specific meter
+	    		(contributed by Meckler); Chopin: Piano Sonata no. 1,
+	    		Op. 4 (1828), III is in 5/4; Carl Loewe's ballad *Prinz
+	    		Eugen, Op. 92 (1844).
+			</li>
+
+			<li>Earliest use of septuple meter:
+				<ol>
+					<li>
+		  				Notated as such: Alkan: Impromptu, Op. 32 No. 8
+		  				(1849!) (contributed by Bala); the meter is 7/4.
+		  				Runner-up: Bartok: no. 2 of Two Elegies (for
+		  				piano), Op. 8b (1909).
+					</li>
+
+					<li>
+		  				Notated as a repeating pattern of measures of
+		  				regular lengths: Reicha: 36 Fugues for Piano
+		  				(1805) no. 24, is in "cut time + 3/4" throughout;
+		  				it consistently alternates between the two
+		  				(contributed by Murphy). Runners-up:  Brahms:
+		  				"Variations on a Hungarian Song" Op. 21, No. 2
+		  				(1854) is notated as 3/4 C; the theme and first
+		  				eight variations consistently alternate between
+		  				the two (contributed by Murphy). Brahms: Piano
+		  				Trio in c, Op. 101 (1886), III is notated as 3/4
+		  				2/4, but consistently has one measure of 3/4
+		  				followed by two of 2/4.
+					</li>
+				</ol>
+			</li>
+
+			<li>	
+	    		The *Fitzwilliam Virginal Book (ca. 1619) contains
+	    		several pieces with metric structures tantamount to
+	    		irregular meters but notated as a repeating pattern of
+	    		measures of regular lengths, e.g., 11/8 = 4/4 + 3/8
+	    		(contributed by Elkies).
+			</li>
+
+			<li>
+				Earliest non-integer time signature numerator:
+
+	    		(3-1/2)/4 in Florent Schmitt: *La tragédie de Salomé
+	    		(1907; Durand ed.).
+
+	    		Runners-up: (4-1/2)/4 in Ives: *Piano Sonata no. 1
+	    		(1909; Southern Music ed.); (4-1/2)/4 in Ives: "Concord"
+	    		Piano Sonata no. 2 (completed 1915) (Kalmus ed.), III
+	    		("The Alcotts"); (3-1/2)/4 in Varese: *Offrandes (1921).
+	    		NB: Read (1978) lists dozens of works with fractional
+	    		time signature numerators, and it's quite possible that
+	    		some are earlier than those mentioned here.
+			</li>
+		</ol>
+	</li>
+
+	<li>
+      Earliest extended passage without barlines (after barlines
+      came into general use, ca. 1600): "Anonyme [Louis Couperin?]
+      [d'Anglebert?]" (so presumably mid-17th century): a four-page
+      (23 systems) Prelude, in A minor, from "Suite III" (written
+      entirely in whole notes, with bizarre slur-like things --
+      some with loops -- all over the place; this is common in
+      unmeasured keyboard preludes in that style). Runner-up: C.P.E.
+      Bach: Free Fantasy in D (Wotquenne 117/14), in his Versuch
+      uber die wahre Art das Clavier zu spielen (publ. 1762), is
+      just under a page (5 systems); the last "measure" of C.P.E.
+      Bach: Fantasia in F (Wq 59/5) (1782) takes almost two pages
+      (12 systems).
+	</li>
+
+	<li>
+      Earliest tie: according to Rastall (1982), the first use of
+      ties is in Marco Antonio Cavazzoni: *Recerchari, motetti,
+      canzoni (1523).
+	</li>
+
+	<li>
+		Earliest use of <i>accelerando</i>, <i>ritardando</i>, or equivalent:
+
+      <i>Slentando</i> in Purcell's King Arthur (1691), Act III,
+      at the end of "Cold Genius".
+
+      <i>Slentando</i> appears in a 1710 manuscript copy; this
+      presumably reflects Purcell's autograph. An 1813 edition is
+      marked <i>ritardando</i> instead, which in any case is
+      equivalent. (contributed by Solow)
+
+      Runners-up for earliest use, and earliest use in print:
+      <i>calando</i> in Mozart: Piano Sonata, K. 332 (1783), III,
+      ending; <i>rallentando</i> in Beethoven's Trio, Op. 1, no. 2
+      (1795), Finale; Beethoven's Piano Sonata no. 4, Op. 7 (1797),
+      IV (all contributed by Solow). Note: Rastall (1982, p. 192)
+      says "gradual changes of tempo...were an eighteenth-century
+      addition", and mentions terms for both <i>accelerando</i> and
+      <i>ritardano</i>, but gives no examples.
+	</li>
+
+	<li>
+      Earliest small notes: Bach: Organ Prelude in F minor, BWV 534
+      (Bach-Gesellschaft ed.; ca. 1708 to 1717), bottom of p. 2.
+      Runners-up: Bach: cantatas "Sie werden euch in den Bann tun",
+      BWV 44, V, and "Nun komm, der Heiden Heiland", BWV 62 (both
+      1724), II, III, and IV. All of these are in metrically-complete
+      measures.
+	</li>
+</ol>
+
+
+
+<h3>3. Dynamics</h3>
+
+
+
+<p>
+   Rastall (1982) contains a fairly extensive discussion of early
+   uses of dynamic markings. In the items below, no distinction is
+   made between words and their abbreviations, e.g., between <i>f</i>
+   and <i>forte</i>.
+</p>
+
+<ol type="a">
+	<li>
+      Earliest use of any dynamic marking: Vincenzo Capirola's
+      lutebook (ca. 1517) (Fig. 120 in the article "Notation" in
+      Sadie, 2001).
+	</li>
+
+	<li>
+      Earliest use of <i>pian[o]</i> and <i>forte</i>: Giovanni
+      Gabrieli: Sonata pian e forte, from Sacrae Symphoniae (1597).
+   </li>
+
+	<li>
+      Earliest use of <i>mf</i>: Gluck: Orfeo ed Euridice (1762),
+      Act II Scene 1. Runners-up: Haydn: Piano Sonata no. 9 in D
+      (1767; Peters-Martienssen ed.), II; F. X. Richter: String
+      Quartet in B-flat, Op. 5 no. 2 (1768). NB: Rastall (1982)
+      says C.P.E. Bach used mf, but gives no details.
+   </li>
+
+	<li>
+      Earliest use of <i>mp</i>: Schütz: Saul, was vergolst du mich
+      (ca. 1650) from Symphoniae sacrae III (Barenreiter; reprinted
+      in Burkholder, 2006) (contributed by Cuthbert). Runners-up:
+      Haydn: Quartet Op. 77 no. 2 (1799; pub. 1803), I (contributed
+      by Solow); Liszt: Transcendental Etude no. 4 ("Mazeppa")
+      (1827, rev. 1837). Rastall (1982) says <i>mp</i> appears later
+      than <i>mf</i>, but gives no details. Badura-Skoda (1962)
+      says Mozart knew of <i>mp</i> as well as <i>mf</i>, writing
+      "pf" for the former, but gives no further details.
+   </li>
+
+	<li>
+      Earliest use of <i>fp</i>: Johann Stamitz: Sinfonia in E-flat
+      ("La Melodia Germanica" no. 3) (1755), I. Runner-up: Mozart:
+      Piano Sonata in F, K.280 (1774), III.
+   </li>
+
+	<li>
+      Earliest use of <i>pp</i>: Schütz: Saul, was vergolst du mich
+      (ca. 1650) from Symphoniae sacrae III (Barenreiter; reprinted
+      in Burkholder, 2006) (contributed by Cuthbert). Runners-up:
+      Handel: The Messiah (1742), Nos. 17 ("Glory to God"), 18
+      ("Rejoice greatly", final version), etc. Johann Stamitz:
+      Sinfonia in E-flat ("La Melodia Germanica" no. 3) (1755), I;
+      Haydn: Symphony no. 7 ("Midi") (1761), I. NB: Rastall (1982)
+      says pianissimo "appeared early in the 17th century".
+   </li>
+
+	<li>
+      Earliest use of <i>ff</i>: J.-J. Rousseau: Le Devin Du Village
+      (1752), Scene 1, air "J'ai perdu tout mon bonheur". Runners-up:
+      Johann Stamitz: Sinfonia in E-flat ("La Melodia Germanica"
+      no. 3) (1755), I; Haydn: Symphony no. 7 ("Midi") (1761), I.
+   </li>
+
+	<li>
+      Earliest use of <i>ppp</i>: Beethoven: Piano Concerto no. 5
+      in Eb ("Emperor"), Op. 73 (1809), I. Runner-up: Schubert:
+      Erlkoenig, D. 328 (1815). NB: Warner (1977) says J. G.
+      Tromlitz's Flute Treatise of 1791 mentions <i>ppp</i>.
+   </li>
+
+	<li>
+      Earliest use of <i>fff</i>: Haydn: Sieben letzten Worte (1787;
+      Artaria), string quartet version and *orch. version (contributed
+      by Hosar).
+
+      Runners-up: Beethoven: Leonore Overture no. 3, Op. 72a (1806;
+      Eulenberg ed.), m. 610; Beethoven: Piano Concerto no. 5 in
+      Eb ("Emperor"), Op. 73 (1809), I. NB: Warner (1977) says J.
+      G. Tromlitz's Flute Treatise of 1791 mentions <i>fff</i>.
+   </li>
+
+	<li>
+      Earliest use of <i>pppp</i>: Berlioz: Symphonie Fantastique,
+      Op. 14 (1830; Breitkopf &amp; Hartel ed.), V, m. 345, double bass.
+
+      Runners-up: Berlioz's Roméo et Juliette (1839; Breitkopf &amp;
+      Hartel ed.), no. 4, "La reine Mab, reine des songes", in the
+      celli four bars before rehearsal no. 54 (contributed by Bala);
+      Wolf: In der fruehe (1888; Peters ed.).
+	</li>
+
+	<li>
+      Earliest use of <i>ffff</i>: Unknown. Tchaikovsky: 1812
+      Overture (1880) uses it, but his The Tempest, Op. 18 (1873)
+      already used <i>fffff</i> (5 <i>f</i>'s).
+   </li>
+
+	<li>
+      Earliest use of <i>forte possibile</i>: Dussek: Piano Sonata
+      in E-flat, Op. 44 (publ. 1800), I. An interesting runner-up
+      is Chopin: Etudes, Op. 25 (1832-36; Paderewski ed.), nos. 10
+      in b and 12 in c, but there were almost certainly other uses
+      between 1800 and this.
+   </li>
+
+	<li>
+      Earliest use of hairpins: According to Rastall (1982), hairpins
+      are first used in the violin sonatas of Piani (1712). Distant
+      runners-up: Haydn: Piano Sonatas no. 9 in D (1767), I; no. 2
+      in e (1778), I; and no. 5 in C (1780), I (all Peters-Martienssen
+      ed.); Mozart: Piano Sonata in D, K. 576 (1789), II (Presser/Broder
+      ed.). But surely there were many uses between 1712 and 1767!
+   </li>
+</ol>
+
+
+
+<h3>4. Other</h3>
+
+
+
+<ol type="a">
+	<li>
+      Earliest metronome marks: Beethoven published metronome marks
+      for all of his (then) eight symphonies in 1817.
+   </li>
+
+	<li>
+      Earliest chord with explicit "arpeggiate downward" indication:
+      Chambonnieres' (d. ca. 1672) table of ornaments; d'Anglebert's
+      table of ornaments (1689). (Both contributed by Zarky; both
+      use a notation completely different from the modern form.)
+      Runners-up: Bartok: Fourteen Bagatelles (1908; Schirmer ed.),
+      no. 10 (indicated with the normal arpeggio sign, but after
+      the chord instead of before); Krenek: Piano Piece, Op. 39 no.
+      5 (1926) (this is the earliest with the now-standard arpeggio
+      sign before the chord with an arrow on the bottom); Bartok:
+      Piano Sonata (1926; Boosey &amp; Hawkes ed.), I. But it's very
+      hard to believe there were no uses between 1689 and 1908!
+   </li>
+
+	<li>Instrument-specific
+		<ol>
+			<li>
+	    		Bowed strings: Earliest explicit indication of what
+	    		string something should be played on: Haydn: *Cello
+	    		Concerto in D (1783), I (2nd theme). Runner-up: Beethoven:
+	    		*Trio, Op. 1 No. 3, III (cello part). (contributed by
+	    		Solow)
+	 		</li>
+
+			<li>
+	    		Bowed strings: Earliest bowing marks: Arnold (1983)
+	    		mentions Corelli: *Folia, Op. 5 no. 12 (1700).
+	 		</li>
+
+			<li>
+	    		Bowed strings: Earliest glissando in natural harmonics:
+	    		Rimsky-Korsakov: *Suite from the opera Christmas Eve
+	    		(1895), in the section "Demonic Carol" ("Besovskaya
+	    		Kolyadka").
+
+	    		Runner-up: Ravel: Rapsodie espagnole (1908; Durand ed.),
+	    		p. 40. (both contributed by Burkholder)
+	 		</li>
+
+			<li>
+	    		Keyboard: Earliest explicit glissando: D. Scarlatti:
+	    		Keyboard Sonatas K. 379 (1754 or earlier) &amp; *468
+	    		(glissandi in both marked "con dedo solo") (contributed
+	    		by Lindorff); cf. Kirkpatrick (1953), p. 188. Runners-up:
+	    		Padre Antonio Soler used glissandi in some of his
+	    		keyboard sonatas (contributed by Lindorff).
+
+	    		An interesting runner-up, perhaps the earliest specifically
+	    		for piano, is Clementi: Piano School (1801), Waltz 9
+	    		(contributed by Solow).
+	 		</li>
+
+			<li>
+	    		Piano: Earliest explicit use of una corda pedal:
+	    		Beethoven: Piano Concerto no. 4, II.
+	 		</li>
+
+			<li>
+	    		Piano: Earliest clear indication of "Ped. 3" (sostenuto
+	    		pedal): Percy Grainger: *"Four Irish Dances (1907).
+	    		Runners-up: Percy Grainger: *In a Nutshell (1916); K.S.
+	    		Sorabji: Piano Sonata No. 2 (1920);  Busoni: *"Mit
+	    		Anwendung des III. Pedals" in the 9th book of the
+	    		Klavierubung (1923); Ruth Crawford-Seeger: *Prelude No.
+	    		1 (1924). (all contributed by Gottlieb)
+	 		</li>
+
+			<li>
+	    		Single-manual keyboard: Earliest use of more than two
+	    		staves: In open score, Samuel Scheidt's *Tabulatura
+	    		Nova (1624) (contributed by Zarky). In conventional
+	    		keyboard notation, G. J. Vogler, Variations sur l'air
+	    		de Marlborough (1791) (Fig. 125 in the article "Notation"
+	    		in Sadie, 2001).
+	 		</li>
+
+			<li>
+	    		Voice: Earliest use of sprechgesang (sprechstimme):
+	    		Humperdinck: *Königskinder (1897) (cited in the article
+	    		"Notation" in Arnold, 1983).
+	 		</li>
+		</ol>
+	</li>
+</ol>
+
+
+</details>
+
+<!--
+	vim: ts=3
+-->
+
+<details>
+
+
+<summary>References</summary>
+
+
+<ol type="1">
+   <li>
+      Arnold, Denis, ed. (1983). <i>The New Oxford Companion to
+      Music</i>. 2 vols. Oxford: Oxford University Press.
+   </li>
+
+   <li>
+      Badura-Skoda, Paul &amp; Eva (1962). <i>Interpreting Mozart
+      at the Keyboard.</i> New York: St. Martin's.
+   </li>
+
+   <li>
+      Barlow, Harold &amp; Morgenstern, Sam (1948; henceforth "B
+      &amp; M, 1948"). <i>A Dictionary of Musical Themes.</i> New
+      York: Crown Publishers.
+   </li>
+
+   <li>
+      Burkholder, J. Peter, &amp; Palisca, Claude, eds. (2006).
+      <i>Norton Anthology of Western Music,</i> 5th ed. New York:
+      W. W. Norton.
+   </li>
+
+   <li>
+      Byrd, Donald (1984). <i>Music Notation by Computer.</i> Ph.D.
+      dissertation, Computer Science Dept., Indiana University;
+      available from UMI, www.umi.com .
+   </li>
+
+   <li>
+      Byrd, Donald (1994). Music-Notation Software and Intelligence.
+      <i>Computer Music Journal</i> 18(1), pp. 17-20.
+   </li>
+
+   <li>
+      Byrd, Donald (2017a). Gallery of Interesting Music Notation.
+      Available at:
+      http://www.informatics.indiana.edu/donbyrd/InterestingMusicNotation.html
+   </li>
+
+   <li>
+      Byrd, Donald (2017b). More Counterexamples in Conventional
+      Music Notation. Available at:
+      http://www.informatics.indiana.edu/donbyrd/MoreCMNCounterexamples.htm
+   </li>
+
+   <li>
+      Byrd, Donald, &amp; Isaacson, Eric (2016) (henceforth "B &amp;
+      I"). A Music Representation Requirement Specification for
+      Academia. Based on our 2003 <i>Computer Music Journal</i>
+      paper of the same title. Available at:
+      http://www.informatics.indiana.edu/donbyrd/Papers/MusicRepReqForAcad.doc
+      .
+   </li>
+
+   <li>
+      Davison, Archibald, and Apel, Willi (1962). Historical Anthology
+      of Music, revised ed.
+   </li>
+
+   <li>
+      Dumitrescu, Theodor (2007). Constructing a Canonic Pitch
+      Spiral: The Case of  <i>Salve Radix</i>. In <i>Canons and
+      Canonic Techniques, 14th-16th  Centuries</i>, ed. Kateligne
+      Schiltz and Bonnie J. Blackburn (Leuven:  Peeters), pp.
+      141-170.
+   </li>
+
+   <li>
+      Hewlett, Walter, &amp; Selfridge-Field, Eleanor, eds. (1991,
+      1992). <i>Computing in Musicology,</i> vols. 7 &amp; 8. Menlo
+      Park, California: Center for Computer-Assisted Research in
+      the Humanities.
+   </li>
+
+   <li>
+      Kirkpatrick, Ralph (1953). <i>Domenico Scarlatti.</i> Princeton
+      University Press.
+   </li>
+
+   <li>
+      LaRue, Jan (1988). <i>A Catalogue of Eighteenth-Century
+      Symphonies,</i> Vol. I. Bloomington: Indiana University Press.
+   </li>
+
+   <li>
+      Picken, Laurence E.R. (1975). <i>Folk Musical Instruments of
+      Turkey.</i>
+   </li>
+
+   <li>
+      Randel, Don Michael (2003). <i>Harvard Dictionary of Music</i>,
+      4th ed.
+   </li>
+
+   <li>
+      Rastall, Richard (1982). <i>The Notation of Western Music.</i>
+      New York: St. Martins.
+   </li>
+
+   <li>
+      Read, Gardner (1969). <i>Music Notation.</i> 2nd ed. Boston:
+      Crescendo.
+   </li>
+
+   <li>
+      Read, Gardner (1978). <i>Modern Rhythmic Notation.</i>
+      Bloomington: Indiana University Press.
+   </li>
+
+   <li>
+      Risatti, Howard (1975). <i>New Music Vocabulary.</i> Urbana:
+      University of Illinois Press.
+   </li>
+
+   <li>
+      Sadie, Stanley, ed. (1980). <i>The New Grove Dictionary of
+      Music and Musicians,</i> 1st ed.  Macmillan.
+   </li>
+
+   <li>
+      Sadie, Stanley, ed. (2001). <i>The New Grove Dictionary of
+      Music and Musicians,</i> 2nd ed.  Macmillan.
+   </li>
+
+   <li>
+      Schenk, E., ed. (1997). <i>Denkmaler der Tonkunst in
+      Oesterreich,</i> vol. 151. Graz: Akademische Druck- u.
+      Verlagsanstalt.
+   </li>
+
+   <li>
+      Warner, Thomas (1977). Tromlitz's Flute Treatise: A Neglected
+      Source of Eighteenth-Century Performance Practice. In <i>A
+      Musical Offering: Essays in Honor of Martin Bernstein</i> ed.
+      by E. Clinkscale and C. Brook. Pendragon Press.
+   </li>
+
+</ol>
+
+
+
+</details>
+
+
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

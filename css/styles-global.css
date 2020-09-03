@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+* {
+	font-family: 'Lato', sans-serif;
+	font-smooth: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #ffffff;
+	color: #333333;
+}
+
+#page-content-wrapper > nav {
+ 	background-image: url("/images/website/scarbo.png");
+	background-repeat: no-repeat;
+	background-opacity: 0.9;
+	background-size: cover;
+	background-size: 80%;
+	background-position: 90px -30px;
+	padding-bottom: 200px;
+	margin-bottom: -200px;
+	z-index: 1;
+}
+
+#top-nav {
+	background-color: #ffffff;
+}
+
+#main-title-container {
+   	position: relative;
+    	z-index:10;
+	float: center;
+	margin-left: auto;
+	background: transparent;
+	width: 100%;
+	margin-right: auto;
+	background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); 
+}
+
+#main-title {
+ 	text-shadow: 0px 0px 15px #32597d;
+	margin-top: 50px;
+	text-align: center;
+   	position: relative;
+	padding-top: 60px;
+    	z-index:100;
+	background: none;
+	font-size: 3.5rem;
+	color: #12395d;
+	float: center;
+	font-weight: bold;
+	margin-bottom: -50px;
+	padding-bottom: 50px;
+}
+
+
+div#navbarSupportedContent.collapse.navbar-collapse {
+	background: none;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h3 {
+	color: #12395d;
+	font-weight: bold;
+}
+
+h4 {
+	color: #32597d;
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+summary {
+	padding-left: 10px;
+	border-radius: 5px;
+	font-size: 2.25rem;
+	color: #bdd2e8;
+	background: #12395d;
+	margin-bottom: 10px;
+}
+
+p {
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+
+details ol li, a, p {
+	word-spacing: 5px;
+	letter-spacing: -0.3px;
+	font-family: 'Neuton', serif;
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+	text-justify: inter-word;
+	text-align: justify;
+	font-weight: 400;
+	padding-right: 20px;
+}
+
+
+a {
+	color: #52799d;
+	text-decoration: none;
+
+}
+
+i {
+	font-style: italic;
+	font-family: 'Neuton', serif;
+	font-weight: 400;
+}
+
+
